@@ -78,7 +78,7 @@ The official MICCAI 2026 proceedings citation is **to be released**. A placehold
 
 This work is supported by the National Natural Science Foundation of China under Grants 62371016 and U23B2063, the Beijing Natural Science Foundation Haidian District Joint Fund under Grant L222032, the Fundamental Research Funds for the Central University of China from the State Key Laboratory of Software Development Environment in Beihang University, the 111 Project under Grant B13003, SinoUnion Healthcare Inc. under the eHealth program, and HPC resources at Beihang University.
 
-We thank the authors of **M3D**, **MedSAM2**, **SAT**, **BiomedParseV2**, and **DeepSeek-R1 / GRPO** for releasing their work that this project builds upon.
+We thank the authors of **[M3D](https://github.com/BAAI-DCAI/M3D.git)**, **[MedSAM2](https://github.com/bowang-lab/MedSAM2)**, **[SAT](https://github.com/zhaoziheng/SAT)** and **[BiomedParseV2](https://github.com/microsoft/BiomedParse.git)** for releasing their work that this project builds upon.
 
 ## Contact
 
