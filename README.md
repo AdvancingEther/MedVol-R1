@@ -21,8 +21,8 @@
 
 ## News
 
-- **[2026-05]** MedVol-R1 is **provisionally accepted at MICCAI 2026 (Top 9%)**.
-- **[2026-05]** Project page and code repository are now live.
+- 🎉 **[2026-05]** MedVol-R1 is **provisionally accepted at MICCAI 2026 (Top 9%)**.
+- 🎉 **[2026-05]** Project page and code repository are now live.
 
 ## Overview
 
@@ -94,14 +94,15 @@ We evaluate on three CT sub-datasets from the **M3D-Seg** benchmark:
 
 ## Citation
 
-If you find this work useful, please cite:
+The official MICCAI 2026 proceedings citation is **to be released**. A placeholder BibTeX entry is provided below and will be updated once the camera-ready version is published:
 
 ```bibtex
 @inproceedings{wang2026medvolr1,
   title     = {MedVol-R1: Reward-Driven Evidence Grounding for Volumetric Reasoning Segmentation},
   author    = {Wang, Zichun and Shi, Hairong and Wei, Bingzheng and Xu, Yan and Wang, Zihua},
   booktitle = {International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
-  year      = {2026}
+  year      = {2026},
+  note      = {To appear}
 }
 ```
 
