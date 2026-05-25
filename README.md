@@ -41,12 +41,6 @@ We present **MedVol-R1**, the *first reinforcement-learning–based framework* f
 </p>
 <p align="center"><i>Figure 1. Overall pipeline of MedVol-R1. The reasoning policy produces a key-slice and bounding boxes, which are scored by a multi-dimensional rule-based reward and propagated to a 3D mask by a frozen MedSAM2.</i></p>
 
-## Highlights
-
-- **First RL framework for VRS.** We apply GRPO on top of cold-start SFT for volumetric reasoning segmentation, without requiring CoT annotations.
-- **Decoupled evidence grounding.** Instead of opaque `<SEG>` tokens, the LVLM outputs a verifiable 2D anchor (key slice + 2D bboxes) that humans can inspect and verify.
-- **Multi-component reward.** A composite reward enforces (i) **format compliance**, (ii) **axial evidence selection**, (iii) **2D spatial localization** (Hungarian-matched IoU), and (iv) **cross-slice consistency** (Dice on a local axial neighborhood after MedSAM2 propagation).
-- **State-of-the-art on three M3D-Seg CT subsets.** Large gains on the most reasoning-heavy queries (KiTS23: **+14.77 DSC** over M3D).
 
 ## Results
 
@@ -65,25 +59,6 @@ MedVol-R1 (SFT+RL) achieves the **best DSC and IoU on all three benchmarks**, wi
   <img src="asset/Fig2.png" alt="Qualitative comparisons" width="95%">
 </p>
 <p align="center"><i>Figure 2. Qualitative comparisons on five representative VRS samples. MedVol-R1 yields cleaner boundaries, less leakage into adjacent structures, and more complete target coverage than M3D.</i></p>
-
-## Experimental Setup
-
-- **Base LVLM:** Qwen3-VL-4B
-- **Mask Propagator:** frozen MedSAM2
-- **Volume representation:** 64 uniformly sampled axial slices at 256×256
-- **SFT:** 1 epoch, LoRA rank 128 (all-linear), LR 2×10⁻⁵, per-GPU batch 2
-- **GRPO:** 3 epochs, G = 4, β = 0.01, LR 2×10⁻⁶, per-GPU batch 1
-- **Optimizer:** AdamW, cosine schedule with 0.1 warmup, bfloat16, gradient checkpointing
-- **Hardware:** NVIDIA RTX A6000
-- **Max generation length:** 256 tokens
-
-## Datasets
-
-We evaluate on three CT sub-datasets from the **M3D-Seg** benchmark:
-
-- **CT-ORG** — organ-level segmentation.
-- **AbdomenCT-1K** — abdominal multi-organ.
-- **KiTS23** — kidney and lesion. Test queries are paraphrased to couple lesion attributes with anatomical spatial relations (e.g., *"the kidney containing an obvious fluid-filled sac"*), demanding joint semantic and 3D structural reasoning.
 
 ## Citation
 
