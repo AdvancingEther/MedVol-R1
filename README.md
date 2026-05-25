@@ -48,31 +48,6 @@ We present **MedVol-R1**, the *first reinforcement-learning–based framework* f
 - **Multi-component reward.** A composite reward enforces (i) **format compliance**, (ii) **axial evidence selection**, (iii) **2D spatial localization** (Hungarian-matched IoU), and (iv) **cross-slice consistency** (Dice on a local axial neighborhood after MedSAM2 propagation).
 - **State-of-the-art on three M3D-Seg CT subsets.** Large gains on the most reasoning-heavy queries (KiTS23: **+14.77 DSC** over M3D).
 
-## Method
-
-MedVol-R1 operates in two stages:
-
-1. **Evidence Grounding.** Given a multi-slice sequence *S* and a clinical query *q*, the LVLM identifies a key slice *I<sub>k</sub>* and predicts 2D bounding boxes *B<sub>k</sub>* on that slice within a strict `<think>…</think><answer>…</answer>` schema.
-2. **Volumetric Propagation.** A frozen MedSAM2 lifts the 2D anchor *(I<sub>k</sub>, B<sub>k</sub>)* into a volumetric mask **Ŷ** via slice-to-slice memory propagation.
-
-### Two-Stage Training
-
-| Stage | Goal | Notes |
-|-------|------|-------|
-| **I. Cold-start SFT** | Mitigate the sparse-reward problem in RL by warm-starting the policy. | Supervision targets derived from Top-*K* visibility sampling and connected-component decomposition. |
-| **II. GRPO** | Reward-driven optimization of the reasoning policy. | Composite reward; KL penalty to a frozen reference model. |
-
-### Reward Components
-
-The total reward is a weighted sum: **R<sub>total</sub> = λ<sub>f</sub>R<sub>f</sub> + λ<sub>a</sub>R<sub>a</sub> + λ<sub>s</sub>R<sub>s</sub> + λ<sub>c</sub>R<sub>c</sub>**  (all λ = 1.0)
-
-| Reward | What it measures |
-|--------|------------------|
-| **R<sub>f</sub>** — Format Compliance | Valid `<think>`/`<answer>` blocks and parseable schema (key-slice index + `bbox_2d_list`). |
-| **R<sub>a</sub>** — Axial Localization | Graded credit ∝ target visibility on the predicted key slice. |
-| **R<sub>s</sub>** — 2D Spatial Localization | Hungarian-matched IoU between predicted and GT boxes on the chosen slice. |
-| **R<sub>c</sub>** — Cross-slice Consistency | Dice on the local axial neighborhood **N(k̂)** after MedSAM2 propagation. |
-
 ## Results
 
 ### Quantitative Comparison
