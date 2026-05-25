@@ -59,13 +59,6 @@ MedVol-R1 (SFT+RL) achieves the **best DSC and IoU on all three benchmarks**, wi
 </p>
 <p align="center"><i>Table 1. Quantitative comparison with state-of-the-art methods on AbdomenCT-1K, CT-ORG, and KiTS23.</i></p>
 
-**Key takeaways**
-
-- On **AbdomenCT-1K**, MedVol-R1 reaches **89.86 DSC** vs. 73.63 for M3D.
-- On **KiTS23** (paraphrased, reasoning-heavy queries), MedVol-R1 reaches **45.46 DSC** vs. 30.69 for M3D.
-- GRPO contributes a consistent gain on top of pure SFT: **+4.34 DSC** (AbdomenCT-1K), **+2.20** (CT-ORG), **+9.25** (KiTS23) — the largest gain on the most reasoning-heavy subset.
-- Promptable medical parsers (SAT, BiomedParseV2) fail to generalize to free-form narrative queries despite fine-tuning.
-
 ### Qualitative Comparison
 
 <p align="center">
