@@ -1,0 +1,38 @@
+{
+  "static_checks": {
+    "files": 356,
+    "python_files": 313,
+    "bytes": 6360646,
+    "errors": []
+  },
+  "kits23_synthetic_reward": {
+    "status": "passed",
+    "scores": [
+      {
+        "overall": 0.9999999999999999,
+        "format": 1.0,
+        "space": 1.0,
+        "time": 1.0
+      },
+      {
+        "overall": 0.0,
+        "format": 0.0,
+        "space": 0.0,
+        "time": 0.0
+      },
+      {
+        "overall": 0.6499999999999999,
+        "format": 1.0,
+        "space": 1.0,
+        "time": 0.0
+      }
+    ]
+  },
+  "original_release_reward_equivalence": "passed on same synthetic sparse mask inputs",
+  "gpu_training_and_real_data_evaluation": "not run",
+  "source_directories": "unchanged",
+  "scope": "Qwen3-VL CTOrg/KiTS23; MedGemma-specific and BiomedCLIP workflows not promoted to main entry points",
+  "credential_scan": "common token patterns and private machine paths; no hits (not a formal security audit)",
+  "repository_integration": "Preserved original README paper sections, authors, citation and four asset figures; added code workflow links.",
+  "selected_source_files_tracked": 328
+}

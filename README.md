@@ -75,6 +75,27 @@ RL without SFT warm-start fails to converge, confirming the importance of a cold
 </p>
 <p align="center"><i>Table 2. Ablation studies on reward components and the local axial window size used in the cross-slice consistency reward.</i></p>
 
+## Code and reproduction
+
+Source code is available for the Qwen3-VL CT-ORG and KiTS23 SFT → GRPO →
+inference workflows, with data preparation scripts and the local MedSAM2
+NPZ predictor. Dataset files and model weights are not included.
+
+- [Installation and workflow guide](docs/REPRODUCTION.md)
+- [Task configurations](configs/)
+- [Training, export and inference scripts](scripts/)
+- [Data preparation](data_preparation/)
+- [Evaluation scripts](evaluation/)
+- [Validation results](docs/VALIDATION.md)
+- [Release limitations and review notes](docs/RELEASE_REVIEW.md)
+
+This code snapshot preserves the recovered local experiment implementations.
+CT-ORG SFT settings require author verification, and the included workflows
+have not been rerun end-to-end on this release. The paper also reports
+AbdomenCT-1K; a complete reproduction recipe for that dataset is not included
+in this snapshot. See the workflow guide for the distinct CT-ORG/KiTS23
+reward variants and remaining evaluation limitations.
+
 ## Citation
 
 ```bibtex

@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+pillow
+tqdm
+nibabel
+datasets<=4.0.0
+pyarrow>=15.0.0

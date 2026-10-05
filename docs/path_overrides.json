@@ -1,0 +1,377 @@
+[
+  {
+    "file": "evaluation/ctorg_segmentation.py",
+    "variable": "MEDVOL_CTORG_SEGMENTATION_PRED_JSONL_RESULTS",
+    "default": "outputs/ctorg/predictions.jsonl"
+  },
+  {
+    "file": "evaluation/ctorg_segmentation.py",
+    "variable": "MEDVOL_CTORG_SEGMENTATION_TEST_JSON_FILE",
+    "default": "data/ctorg/ct_org_frames_refseg_test.json"
+  },
+  {
+    "file": "evaluation/ctorg_segmentation.py",
+    "variable": "MEDVOL_CTORG_SEGMENTATION_TRAIN_FILE_ROOT_PATH",
+    "default": "data/ctorg/ct_org_npy"
+  },
+  {
+    "file": "evaluation/ctorg_segmentation.py",
+    "variable": "MEDVOL_EVAL_OUTPUT_CSV",
+    "default": "outputs/ctorg/segmentation_metrics.csv"
+  },
+  {
+    "file": "evaluation/ctorg_segmentation.py",
+    "variable": "MEDSAM2_CHECKPOINT",
+    "default": "checkpoints/MedSAM2_2411.pt"
+  },
+  {
+    "file": "evaluation/ctorg_segmentation.py",
+    "variable": "MEDVOL_EVAL_NUM_WORKERS",
+    "default": "1"
+  },
+  {
+    "file": "evaluation/ctorg_segmentation.py",
+    "variable": "MEDVOL_EVAL_WORKERS_PER_GPU",
+    "default": "1"
+  },
+  {
+    "file": "evaluation/ctorg_segmentation.py",
+    "variable": "MEDVOL_EVAL_GPU_IDS",
+    "default": "0"
+  },
+  {
+    "file": "data_preparation/ctorg/convert_volumes.py",
+    "variable": "MEDVOL_CONVERT_VOLUMES_CTORG_ROOT",
+    "default": "data/ctorg/raw"
+  },
+  {
+    "file": "data_preparation/ctorg/convert_volumes.py",
+    "variable": "MEDVOL_CONVERT_VOLUMES_OUT_ROOT",
+    "default": "data/ctorg/ct_org_npy"
+  },
+  {
+    "file": "data_preparation/ctorg/generate_rl.py",
+    "variable": "MEDVOL_GENERATE_RL_TRAIN_64_SLICES_FOLDER",
+    "default": "data/ctorg/ct_org_png"
+  },
+  {
+    "file": "data_preparation/ctorg/generate_rl.py",
+    "variable": "MEDVOL_GENERATE_RL_TRAIN_NPY_FOLDER",
+    "default": "data/ctorg/ct_org_npy"
+  },
+  {
+    "file": "data_preparation/ctorg/generate_rl.py",
+    "variable": "MEDVOL_GENERATE_RL_OUT_DIR",
+    "default": "data/ctorg/verl_parquet"
+  },
+  {
+    "file": "data_preparation/ctorg/generate_rl.py",
+    "variable": "MEDVOL_GENERATE_RL_TERM_DICT_JSON",
+    "default": "data_preparation/ctorg/term_dictionary.json"
+  },
+  {
+    "file": "data_preparation/ctorg/generate_rl.py",
+    "variable": "MEDVOL_GENERATE_RL_CANDIDATE_TRAIN_VOLUME_CSV",
+    "default": "data/ctorg/summary_all_train.csv"
+  },
+  {
+    "file": "data_preparation/ctorg/generate_sft.py",
+    "variable": "MEDVOL_GENERATE_SFT_ROOT_NPY",
+    "default": "data/ctorg/ct_org_npy"
+  },
+  {
+    "file": "data_preparation/ctorg/generate_sft.py",
+    "variable": "MEDVOL_GENERATE_SFT_ROOT_PNG",
+    "default": "data/ctorg/ct_org_png"
+  },
+  {
+    "file": "data_preparation/ctorg/generate_sft.py",
+    "variable": "MEDVOL_GENERATE_SFT_TRAIN_CSV",
+    "default": "data/ctorg/summary_all_train.csv"
+  },
+  {
+    "file": "data_preparation/ctorg/generate_sft.py",
+    "variable": "MEDVOL_GENERATE_SFT_TEST_CSV",
+    "default": "data/ctorg/summary_all_test.csv"
+  },
+  {
+    "file": "data_preparation/ctorg/generate_sft.py",
+    "variable": "MEDVOL_GENERATE_SFT_OUT_TRAIN_JSON",
+    "default": "data/ctorg/ct_org_frames_refseg_train.json"
+  },
+  {
+    "file": "data_preparation/ctorg/generate_sft.py",
+    "variable": "MEDVOL_GENERATE_SFT_OUT_TEST_JSON",
+    "default": "data/ctorg/ct_org_frames_refseg_test.json"
+  },
+  {
+    "file": "data_preparation/ctorg/generate_sft.py",
+    "variable": "MEDVOL_GENERATE_SFT_TERM_DICT_JSON",
+    "default": "data_preparation/ctorg/term_dictionary.json"
+  },
+  {
+    "file": "data_preparation/ctorg/select_slices.py",
+    "variable": "MEDVOL_SELECT_SLICES_ROOT_0012",
+    "default": "data/ctorg/ct_org_npy"
+  },
+  {
+    "file": "data_preparation/ctorg/select_slices.py",
+    "variable": "MEDVOL_SELECT_SLICES_OUT_ROOT",
+    "default": "data/ctorg/ct_org_png"
+  },
+  {
+    "file": "data_preparation/kits23/step1_get_64slices.py",
+    "variable": "MEDVOL_STEP1_GET_64SLICES_ROOT_0012",
+    "default": "data/kits23/kits23_npy_m3d"
+  },
+  {
+    "file": "data_preparation/kits23/step1_get_64slices.py",
+    "variable": "MEDVOL_STEP1_GET_64SLICES_OUT_ROOT",
+    "default": "data/kits23/kits23_png_m3d"
+  },
+  {
+    "file": "data_preparation/kits23/step0_cvt_to_kits_m3d.py",
+    "variable": "MEDVOL_STEP0_CVT_TO_KITS_M3D_KITS_NPY_ROOT",
+    "default": "data/kits23/kits23_npy"
+  },
+  {
+    "file": "data_preparation/kits23/step0_cvt_to_kits_m3d.py",
+    "variable": "MEDVOL_STEP0_CVT_TO_KITS_M3D_ENTITY_WITH_TEMPLATES_JSON",
+    "default": "data/kits23/final_vqa_gen/entity_with_templates.json"
+  },
+  {
+    "file": "data_preparation/kits23/step0_cvt_to_kits_m3d.py",
+    "variable": "MEDVOL_STEP0_CVT_TO_KITS_M3D_OUT_ROOT",
+    "default": "data/kits23/kits23_npy_m3d"
+  },
+  {
+    "file": "data_preparation/kits23/gen_rl_parquet.py",
+    "variable": "MEDVOL_GEN_RL_PARQUET_TEMPLATE_PATH",
+    "default": "data_preparation/kits23/template.json"
+  },
+  {
+    "file": "data_preparation/kits23/gen_rl_parquet.py",
+    "variable": "MEDVOL_GEN_RL_PARQUET_ENTITY_INFO_FILE",
+    "default": "data/kits23/final_vqa_gen/entity_with_templates.json"
+  },
+  {
+    "file": "data_preparation/kits23/gen_rl_parquet.py",
+    "variable": "MEDVOL_GEN_RL_PARQUET_ROOT_NPY",
+    "default": "data/kits23/kits23_npy_m3d"
+  },
+  {
+    "file": "data_preparation/kits23/gen_rl_parquet.py",
+    "variable": "MEDVOL_GEN_RL_PARQUET_ROOT_PNG",
+    "default": "data/kits23/kits23_png_m3d"
+  },
+  {
+    "file": "data_preparation/kits23/gen_rl_parquet.py",
+    "variable": "MEDVOL_GEN_RL_PARQUET_SPLIT_FILE",
+    "default": "data/kits23/split.json"
+  },
+  {
+    "file": "data_preparation/kits23/gen_rl_parquet.py",
+    "variable": "MEDVOL_GEN_RL_PARQUET_OUT_DIR",
+    "default": "data/kits23/verl_parquet"
+  },
+  {
+    "file": "data_preparation/kits23/step2_gen_sft_vqa_via_tmplate.py",
+    "variable": "MEDVOL_STEP2_GEN_SFT_VQA_VIA_TMPLATE_TEMPLATE_PATH",
+    "default": "data_preparation/kits23/template.json"
+  },
+  {
+    "file": "data_preparation/kits23/step2_gen_sft_vqa_via_tmplate.py",
+    "variable": "MEDVOL_STEP2_GEN_SFT_VQA_VIA_TMPLATE_ENTITY_INFO_FILE",
+    "default": "data/kits23/final_vqa_gen/entity_with_templates.json"
+  },
+  {
+    "file": "data_preparation/kits23/step2_gen_sft_vqa_via_tmplate.py",
+    "variable": "MEDVOL_STEP2_GEN_SFT_VQA_VIA_TMPLATE_ROOT_NPY",
+    "default": "data/kits23/kits23_npy_m3d"
+  },
+  {
+    "file": "data_preparation/kits23/step2_gen_sft_vqa_via_tmplate.py",
+    "variable": "MEDVOL_STEP2_GEN_SFT_VQA_VIA_TMPLATE_ROOT_PNG",
+    "default": "data/kits23/kits23_png_m3d"
+  },
+  {
+    "file": "data_preparation/kits23/step2_gen_sft_vqa_via_tmplate.py",
+    "variable": "MEDVOL_STEP2_GEN_SFT_VQA_VIA_TMPLATE_SPLIT_FILE",
+    "default": "data/kits23/split.json"
+  },
+  {
+    "file": "data_preparation/kits23/step2_gen_sft_vqa_via_tmplate.py",
+    "variable": "MEDVOL_STEP2_GEN_SFT_VQA_VIA_TMPLATE_OUT_TRAIN_JSON",
+    "default": "data/kits23/kits23_frames_refseg_train.json"
+  },
+  {
+    "file": "data_preparation/kits23/step2_gen_sft_vqa_via_tmplate.py",
+    "variable": "MEDVOL_STEP2_GEN_SFT_VQA_VIA_TMPLATE_OUT_TEST_JSON",
+    "default": "data/kits23/kits23_frames_refseg_test.json"
+  },
+  {
+    "file": "data_preparation/kits23/entity_generation/step2_stats_tumor_cyst.py",
+    "variable": "MEDVOL_STEP2_STATS_TUMOR_CYST_NPY_PATH",
+    "default": "data/kits23/kits23_npy"
+  },
+  {
+    "file": "data_preparation/kits23/entity_generation/step2_stats_tumor_cyst.py",
+    "variable": "MEDVOL_STEP2_STATS_TUMOR_CYST_OUTPUT_JSON",
+    "default": "data/kits23/final_vqa_gen/info_stats.json"
+  },
+  {
+    "file": "data_preparation/kits23/entity_generation/step4_gen_template.py",
+    "variable": "MEDVOL_STEP4_GEN_TEMPLATE_ENTITY_JSON",
+    "default": "data/kits23/final_vqa_gen/entity_dict.json"
+  },
+  {
+    "file": "data_preparation/kits23/entity_generation/step4_gen_template.py",
+    "variable": "MEDVOL_STEP4_GEN_TEMPLATE_OUTPUT_JSON",
+    "default": "data/kits23/final_vqa_gen/entity_with_templates.json"
+  },
+  {
+    "file": "data_preparation/kits23/entity_generation/step1_cvt_to_npy.py",
+    "variable": "MEDVOL_KITS23_RAW_ROOT",
+    "default": "data/kits23/dataset"
+  },
+  {
+    "file": "data_preparation/kits23/entity_generation/step1_cvt_to_npy.py",
+    "variable": "MEDVOL_KITS23_INSTANCE_ROOT",
+    "default": "data/kits23/kits23_npy"
+  },
+  {
+    "file": "data_preparation/kits23/entity_generation/step3_gen_attri_stats.py",
+    "variable": "MEDVOL_STEP3_GEN_ATTRI_STATS_INFO_JSON",
+    "default": "data/kits23/final_vqa_gen/info_stats.json"
+  },
+  {
+    "file": "data_preparation/kits23/entity_generation/step3_gen_attri_stats.py",
+    "variable": "MEDVOL_STEP3_GEN_ATTRI_STATS_ENTITY_JSON",
+    "default": "data/kits23/final_vqa_gen/entity_dict.json"
+  },
+  {
+    "file": "third_party/EasyR1/scripts/merge_lora_actor.py",
+    "variable": "MEDVOL_MERGE_LORA_ACTOR_ACTOR_DIR",
+    "default": "checkpoints/rl/qwen3_grounding_grpo_ctorg/qwen3_vl_4b_ctorg_grounding_grpo_slice64_bs4_rollout_4_full_reward_w_o_space_epoch3_medsam_2411/global_step_300/actor"
+  },
+  {
+    "file": "third_party/EasyR1/scripts/merge_lora_actor.py",
+    "variable": "MEDVOL_MERGE_LORA_ACTOR_BASE_MODEL_DIR",
+    "default": "outputs/merged/qwen3vl_CTOrg_sft_lora_64_lr_2e-5_epoch_2_slice_64_res_336_ckpt_912"
+  },
+  {
+    "file": "third_party/EasyR1/scripts/merge_lora_actor.py",
+    "variable": "MEDVOL_MERGE_LORA_ACTOR_OUT_DIR",
+    "default": "outputs/merged/qwen3_grounding_grpo_ctorg/global_step_300"
+  },
+  {
+    "file": "third_party/EasyR1/examples/reward_function/ctorg.py",
+    "variable": "CTORG_NPY_ROOT",
+    "default": "data/ctorg/ct_org_npy"
+  },
+  {
+    "file": "third_party/EasyR1/examples/reward_function/ctorg.py",
+    "variable": "MEDSAM2_CHECKPOINT",
+    "default": "checkpoints/MedSAM2_2411.pt"
+  },
+  {
+    "file": "third_party/EasyR1/examples/reward_function/kits23.py",
+    "variable": "KITS23_NPY_ROOT",
+    "default": "data/kits23/kits23_npy_m3d"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_multi_frame64.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_MULTI_FRAME64_PRED_RESULT_JSON_PATH",
+    "default": "outputs/grounding/output_folder/ct_val_64_frames_vqa_multi_entity_all_finding.jsonl"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_multi_frame64.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_MULTI_FRAME64_CASE_INFO_JSON",
+    "default": "data/grounding/ct_data_val/ct_val_64_frames_vqa_multi_entity_all_finding.json"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_multi_frame64.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_MULTI_FRAME64_CASE_INFO_ROOT_PATH",
+    "default": "data/grounding/ct_data_val/val_downsample_64_all_finding_export64_png"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_multi_frame64.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_MULTI_FRAME64_OUTPUT_DIR",
+    "default": "outputs/grounding/eval_multi_entity_hungarian"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_frame64_vis.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_FRAME64_VIS_PRED_RESULT_JSON_PATH",
+    "default": "outputs/grounding/output_folder/ct_val_single_64_frames_vqa_exp2.jsonl"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_frame64_vis.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_FRAME64_VIS_CASE_INFO_JSON",
+    "default": "data/grounding/ct_data_val/ct_val_64_frames_vqa.json"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_frame64_vis.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_FRAME64_VIS_CASE_INFO_ROOT_PATH",
+    "default": "data/grounding/ct_data_val/val_downsample_64_export64_png"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_frame64_vis.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_FRAME64_VIS_OUTPUT_DIR",
+    "default": "outputs/grounding/vis_output_dir/ct_val_single_64_frames_vqa_exp2"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_frame16_vis_multi.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_FRAME16_VIS_MULTI_PRED_RESULT_JSON_PATH",
+    "default": "outputs/grounding/output_folder/ct_train_16_frames_multi_filtered_final.jsonl"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_frame16_vis_multi.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_FRAME16_VIS_MULTI_CASE_INFO_JSON",
+    "default": "data/grounding/ct_data_ori_npy_multi_finding/ct_train_16_frames_multi_filtered_final.json"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_frame16_vis_multi.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_FRAME16_VIS_MULTI_CASE_INFO_ROOT_PATH",
+    "default": "data/grounding/ct_data_ori_npy_multi_finding/train_16_frames_guarantee"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_frame16_vis_multi.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_FRAME16_VIS_MULTI_OUTPUT_DIR",
+    "default": "outputs/grounding/vis_output_dir"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_by_frame.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_BY_FRAME_INFERENCE_JSONL_RESULTS",
+    "default": "outputs/grounding/ct_train_preds_filtered_for_seg.jsonl"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_by_frame.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_BY_FRAME_DATA_INFO_JSON",
+    "default": "data/external/LLM4SAM/segx/Data/train/ct_grounding_data_for_seg_filtered.json"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_by_frame.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_BY_FRAME_DATA_INFO_ROOT",
+    "default": "data/external/LLM4SAM/3d_data_downsample_for_qwen/ct_data/train"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_frame16_vis.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_FRAME16_VIS_PRED_RESULT_JSON_PATH",
+    "default": "outputs/grounding/output_folder/ct_16_frames_vqa_dsc_6_4_val_set_model_poorset.jsonl"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_frame16_vis.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_FRAME16_VIS_CASE_INFO_JSON",
+    "default": "data/grounding/ct_data_ori_npy_single_finding/ct_val_16_frames_vqa_dsc_6_4.json"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_frame16_vis.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_FRAME16_VIS_CASE_INFO_ROOT_PATH",
+    "default": "data/grounding/ct_data_ori_npy_single_finding/val_16_frames"
+  },
+  {
+    "file": "evaluation/grounding/eval_slice_hit_frame16_vis.py",
+    "variable": "MEDVOL_EVAL_SLICE_HIT_FRAME16_VIS_OUTPUT_DIR",
+    "default": "outputs/grounding/vis_output_dir"
+  }
+]

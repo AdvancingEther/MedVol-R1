@@ -1,0 +1,182 @@
+{
+"kidney_only_with_tumor": [
+"The kidney containing an abnormal growth.",
+"The kidney with a visible abnormal mass.",
+"The kidney affected by a tumorous abnormality.",
+"The kidney showing a focal abnormal lesion.",
+"The kidney harboring an abnormal solid lesion.",
+"The kidney where an abnormal growth is present.",
+"The kidney involved by a visible renal lesion.",
+"The kidney containing the suspicious abnormal mass.",
+"The kidney with an obvious focal abnormality.",
+"The kidney that shows a tumorous lesion."
+],
+
+"kidney_only_with_cyst": [
+"The kidney containing a cystic abnormality.",
+"The kidney with a visible fluid-filled lesion.",
+"The kidney affected by a cystic lesion.",
+"The kidney showing a focal cystic finding.",
+"The kidney harboring a fluid-filled abnormality.",
+"The kidney where a cystic structure is present.",
+"The kidney involved by a visible cystic lesion.",
+"The kidney containing an obvious fluid-filled sac.",
+"The kidney with a focal cystic abnormality.",
+"The kidney that shows a renal cystic lesion."
+],
+
+"kidney_only_with_both_tumor_and_cyst": [
+"The kidney containing both a solid and a cystic abnormality.",
+"The kidney with both tumorous and cystic lesions.",
+"The kidney showing both an abnormal mass and a fluid-filled lesion.",
+"The kidney affected by mixed solid and cystic abnormalities.",
+"The kidney harboring both a tumorous lesion and a cystic lesion.",
+"The kidney where both a solid lesion and a cystic structure are present.",
+"The kidney involved by both a mass-like abnormality and a cystic finding.",
+"The kidney containing both a focal abnormal growth and a fluid-filled sac.",
+"The kidney with both visible tumorous and cystic changes.",
+"The kidney that shows simultaneous solid and cystic lesions."
+],
+
+"kidney_only_healthy": [
+"The kidney without visible abnormalities.",
+"The kidney free of obvious lesions.",
+"The kidney without a detectable focal lesion.",
+"The kidney lacking visible abnormal findings.",
+"The kidney that appears free of mass or cystic change.",
+"The kidney without any obvious pathologic finding.",
+"The kidney with no visible abnormal lesion.",
+"The kidney that appears unaffected.",
+"The kidney without detectable abnormality.",
+"The normal-appearing kidney."
+],
+
+"tumor_only_global": [
+"The abnormality visible in the kidneys.",
+"The visible lesion in the kidneys.",
+"The abnormal finding in the renal region.",
+"The focal abnormality present in the kidneys.",
+"The visible abnormal lesion in this case.",
+"The abnormal growth identified in the kidneys.",
+"The abnormal mass within the kidneys.",
+"The suspicious lesion present in the kidneys.",
+"The kidney tumor visible in this case.",
+"The tumorous abnormality in the kidneys."
+],
+
+"cyst_only_global": [
+"The cystic abnormality visible in the kidneys.",
+"The visible fluid-filled lesion in the kidneys.",
+"The cystic finding in the renal region.",
+"The focal cystic abnormality present in the kidneys.",
+"The visible cystic lesion in this case.",
+"The fluid-filled abnormality identified in the kidneys.",
+"The cystic lesion within the kidneys.",
+"The benign-appearing cystic abnormality in the kidneys.",
+"The kidney cyst visible in this case.",
+"The fluid-filled abnormality in the kidneys."
+],
+"tumor_only_in_kidney": [
+"The tumorous lesion in {kidney_side}.",
+"The abnormal mass within {kidney_side}.",
+"The visible abnormal growth in {kidney_side}.",
+"The focal tumorous abnormality in {kidney_side}.",
+"The renal lesion present in {kidney_side}.",
+"The suspicious mass-like lesion in {kidney_side}.",
+"The abnormal solid lesion within {kidney_side}.",
+"The kidney tumor contained in {kidney_side}.",
+"The visible tumorous finding in {kidney_side}.",
+"The focal abnormal mass in {kidney_side}."
+],
+
+"cyst_only_in_kidney": [
+"The cystic lesion in {kidney_side}.",
+"The fluid-filled abnormality within {kidney_side}.",
+"The visible cystic finding in {kidney_side}.",
+"The focal cystic abnormality in {kidney_side}.",
+"The renal cystic lesion present in {kidney_side}.",
+"The fluid-filled sac in {kidney_side}.",
+"The abnormal cystic structure within {kidney_side}.",
+"The kidney cyst contained in {kidney_side}.",
+"The visible fluid-filled finding in {kidney_side}.",
+"The focal cystic lesion in {kidney_side}."
+],
+
+"tumor_largest_in_kidney": [
+"The largest tumorous lesion in {kidney_side}.",
+"The biggest abnormal mass within {kidney_side}.",
+"The most extensive tumor in {kidney_side}.",
+"The abnormal growth with the greatest size in {kidney_side}.",
+"The dominant tumorous lesion in {kidney_side}.",
+"The most sizable abnormal mass in {kidney_side}.",
+"The renal tumor with the greatest extent in {kidney_side}.",
+"The broadest focal tumorous abnormality in {kidney_side}.",
+"The most prominent abnormal mass within {kidney_side}.",
+"The largest visible tumor in {kidney_side}."
+],
+
+"tumor_highest_in_kidney": [
+"The uppermost tumorous lesion in {kidney_side}.",
+"The highest abnormal mass within {kidney_side}.",
+"The tumor nearest the upper part of {kidney_side}.",
+"The most superior tumorous finding in {kidney_side}.",
+"The abnormal growth located highest in {kidney_side}.",
+"The topmost renal tumor in {kidney_side}.",
+"The focal tumorous lesion closest to the upper pole of {kidney_side}.",
+"The highest-lying abnormal mass in {kidney_side}.",
+"The upper renal lesion in {kidney_side}.",
+"The tumorous abnormality positioned highest in {kidney_side}."
+],
+
+"tumor_lowest_in_kidney": [
+"The lowermost tumorous lesion in {kidney_side}.",
+"The lowest abnormal mass within {kidney_side}.",
+"The tumor nearest the lower part of {kidney_side}.",
+"The most inferior tumorous finding in {kidney_side}.",
+"The abnormal growth located lowest in {kidney_side}.",
+"The bottommost renal tumor in {kidney_side}.",
+"The focal tumorous lesion closest to the lower pole of {kidney_side}.",
+"The lowest-lying abnormal mass in {kidney_side}.",
+"The lower renal lesion in {kidney_side}.",
+"The tumorous abnormality positioned lowest in {kidney_side}."
+],
+
+"cyst_largest_in_kidney": [
+"The largest cystic lesion in {kidney_side}.",
+"The biggest fluid-filled abnormality within {kidney_side}.",
+"The most extensive cyst in {kidney_side}.",
+"The cystic structure with the greatest size in {kidney_side}.",
+"The dominant cystic lesion in {kidney_side}.",
+"The most sizable fluid-filled lesion in {kidney_side}.",
+"The renal cyst with the greatest extent in {kidney_side}.",
+"The broadest focal cystic abnormality in {kidney_side}.",
+"The most prominent cystic finding within {kidney_side}.",
+"The largest visible cyst in {kidney_side}."
+],
+
+"cyst_highest_in_kidney": [
+"The uppermost cystic lesion in {kidney_side}.",
+"The highest fluid-filled abnormality within {kidney_side}.",
+"The cyst nearest the upper part of {kidney_side}.",
+"The most superior cystic finding in {kidney_side}.",
+"The cystic structure located highest in {kidney_side}.",
+"The topmost renal cyst in {kidney_side}.",
+"The focal cystic lesion closest to the upper pole of {kidney_side}.",
+"The highest-lying fluid-filled lesion in {kidney_side}.",
+"The upper renal cystic lesion in {kidney_side}.",
+"The cystic abnormality positioned highest in {kidney_side}."
+],
+
+"cyst_lowest_in_kidney": [
+"The lowermost cystic lesion in {kidney_side}.",
+"The lowest fluid-filled abnormality within {kidney_side}.",
+"The cyst nearest the lower part of {kidney_side}.",
+"The most inferior cystic finding in {kidney_side}.",
+"The cystic structure located lowest in {kidney_side}.",
+"The bottommost renal cyst in {kidney_side}.",
+"The focal cystic lesion closest to the lower pole of {kidney_side}.",
+"The lowest-lying fluid-filled lesion in {kidney_side}.",
+"The lower renal cystic lesion in {kidney_side}.",
+"The cystic abnormality positioned lowest in {kidney_side}."
+]
+}

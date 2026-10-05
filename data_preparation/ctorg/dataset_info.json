@@ -1,0 +1,18 @@
+{
+    "ct_org_frames_refseg_test": {
+    "file_name": "ct_org_frames_refseg_test.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+    "ct_org_frames_refseg_train": {
+    "file_name": "ct_org_frames_refseg_train.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  }
+}

@@ -1,0 +1,2305 @@
+{
+  "source_commits": {
+    "segx/EasyR1": "7c19b04b3e8f952f72fafb9b45b6662ca17fe402",
+    "segx/LLaMA-Factory": "9fd4b094d4adadd34bc46769d385d11870103ad7",
+    "MedSAM2": "332f30d420f1d1b08e2a79b3ae6a602458808383"
+  },
+  "files": [
+    {
+      "source": "segx/EasyR1/verl/__init__.py",
+      "destination": "third_party/EasyR1/verl/__init__.py",
+      "source_sha256": "71e3d6e8033cdaa74d9a0e7725c838f979a89f70446e4037ad8441d06710dada",
+      "release_sha256": "71e3d6e8033cdaa74d9a0e7725c838f979a89f70446e4037ad8441d06710dada",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/models/__init__.py",
+      "destination": "third_party/EasyR1/verl/models/__init__.py",
+      "source_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c",
+      "release_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/models/monkey_patch.py",
+      "destination": "third_party/EasyR1/verl/models/monkey_patch.py",
+      "source_sha256": "235f15787033941179df2380aa586c1de1af90444fedcf4e2ff4da3eb5d4c08b",
+      "release_sha256": "235f15787033941179df2380aa586c1de1af90444fedcf4e2ff4da3eb5d4c08b",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/models/transformers/__init__.py",
+      "destination": "third_party/EasyR1/verl/models/transformers/__init__.py",
+      "source_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c",
+      "release_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/models/transformers/flash_attention_utils.py",
+      "destination": "third_party/EasyR1/verl/models/transformers/flash_attention_utils.py",
+      "source_sha256": "115ef6731be9d9220040aef4362d9c304843df907e56f5c9d118d2633cc0995e",
+      "release_sha256": "115ef6731be9d9220040aef4362d9c304843df907e56f5c9d118d2633cc0995e",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/models/transformers/qwen2_vl.py",
+      "destination": "third_party/EasyR1/verl/models/transformers/qwen2_vl.py",
+      "source_sha256": "38ca4470f7250106a1ec24999128f6bc3b59493ffb4a794e821481aea794e06d",
+      "release_sha256": "38ca4470f7250106a1ec24999128f6bc3b59493ffb4a794e821481aea794e06d",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/models/transformers/qwen3_vl.py",
+      "destination": "third_party/EasyR1/verl/models/transformers/qwen3_vl.py",
+      "source_sha256": "84702e3f5a795e061e87ad269e48d7ec5c5061d7b852cabcced2799815b65244",
+      "release_sha256": "84702e3f5a795e061e87ad269e48d7ec5c5061d7b852cabcced2799815b65244",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/protocol.py",
+      "destination": "third_party/EasyR1/verl/protocol.py",
+      "source_sha256": "a634340a086a986c03c96ad27c58da3df792ad4ebd09741c9109d689e2cfebd1",
+      "release_sha256": "a634340a086a986c03c96ad27c58da3df792ad4ebd09741c9109d689e2cfebd1",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/single_controller/__init__.py",
+      "destination": "third_party/EasyR1/verl/single_controller/__init__.py",
+      "source_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c",
+      "release_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/single_controller/base/__init__.py",
+      "destination": "third_party/EasyR1/verl/single_controller/base/__init__.py",
+      "source_sha256": "54c1bcd50ca1c03e4e08d38208bec3db525eaaf46a987b83d032a316d488c1e4",
+      "release_sha256": "54c1bcd50ca1c03e4e08d38208bec3db525eaaf46a987b83d032a316d488c1e4",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/single_controller/base/decorator.py",
+      "destination": "third_party/EasyR1/verl/single_controller/base/decorator.py",
+      "source_sha256": "2fe8e039eade8d92390d09a4fb1526183f4c110566825452b15e39843e9d3add",
+      "release_sha256": "2fe8e039eade8d92390d09a4fb1526183f4c110566825452b15e39843e9d3add",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/single_controller/base/register_center/__init__.py",
+      "destination": "third_party/EasyR1/verl/single_controller/base/register_center/__init__.py",
+      "source_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c",
+      "release_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/single_controller/base/register_center/ray.py",
+      "destination": "third_party/EasyR1/verl/single_controller/base/register_center/ray.py",
+      "source_sha256": "7c0a3ea7a3f49b4bbd0a5b0f51136b160dca09cdfded5f52ed4d72aa011bce1e",
+      "release_sha256": "7c0a3ea7a3f49b4bbd0a5b0f51136b160dca09cdfded5f52ed4d72aa011bce1e",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/single_controller/base/worker.py",
+      "destination": "third_party/EasyR1/verl/single_controller/base/worker.py",
+      "source_sha256": "ecbbe21a48dd6133700d2028e720eb26870683a0439d8499b43a44bd6486fb99",
+      "release_sha256": "ecbbe21a48dd6133700d2028e720eb26870683a0439d8499b43a44bd6486fb99",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/single_controller/base/worker_group.py",
+      "destination": "third_party/EasyR1/verl/single_controller/base/worker_group.py",
+      "source_sha256": "3c3ab71b7d4e18ace6e150585fe3b2134a4419059089885874067fa35962fc90",
+      "release_sha256": "3c3ab71b7d4e18ace6e150585fe3b2134a4419059089885874067fa35962fc90",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/single_controller/ray/__init__.py",
+      "destination": "third_party/EasyR1/verl/single_controller/ray/__init__.py",
+      "source_sha256": "5fc70fda13efb9a61e43b268b93cc3ce7fd48988e34d59d9a8fd520d7aa8ec72",
+      "release_sha256": "5fc70fda13efb9a61e43b268b93cc3ce7fd48988e34d59d9a8fd520d7aa8ec72",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/single_controller/ray/base.py",
+      "destination": "third_party/EasyR1/verl/single_controller/ray/base.py",
+      "source_sha256": "039982ab0d10549df648427f10b945860c1b8260195faa9552f6336c809a49ab",
+      "release_sha256": "039982ab0d10549df648427f10b945860c1b8260195faa9552f6336c809a49ab",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/trainer/__init__.py",
+      "destination": "third_party/EasyR1/verl/trainer/__init__.py",
+      "source_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c",
+      "release_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/trainer/config.py",
+      "destination": "third_party/EasyR1/verl/trainer/config.py",
+      "source_sha256": "8ecc0fed698059932375ee19f44c47fa163ec5498766a34ce0c9a3abf23d2b8e",
+      "release_sha256": "8ecc0fed698059932375ee19f44c47fa163ec5498766a34ce0c9a3abf23d2b8e",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/trainer/core_algos.py",
+      "destination": "third_party/EasyR1/verl/trainer/core_algos.py",
+      "source_sha256": "871cadc71a8b04295ebdc8ff516ba242697e49cb27680920d4870a8431023d71",
+      "release_sha256": "871cadc71a8b04295ebdc8ff516ba242697e49cb27680920d4870a8431023d71",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/trainer/data_loader.py",
+      "destination": "third_party/EasyR1/verl/trainer/data_loader.py",
+      "source_sha256": "dc70b12c3d6f30d4f547d6aeb68104755bc79548367bdd683d9054c4b34b0263",
+      "release_sha256": "dc70b12c3d6f30d4f547d6aeb68104755bc79548367bdd683d9054c4b34b0263",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/trainer/main.py",
+      "destination": "third_party/EasyR1/verl/trainer/main.py",
+      "source_sha256": "d9294521368b01755230681d525603a8f8d4786fd92ae7903067ee90bb8f7536",
+      "release_sha256": "d9294521368b01755230681d525603a8f8d4786fd92ae7903067ee90bb8f7536",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/trainer/metrics.py",
+      "destination": "third_party/EasyR1/verl/trainer/metrics.py",
+      "source_sha256": "5ea4351e39d3879156da3c2925dc5832381e941a1901f87d81d7fb85263d14a3",
+      "release_sha256": "5ea4351e39d3879156da3c2925dc5832381e941a1901f87d81d7fb85263d14a3",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/trainer/ray_trainer.py",
+      "destination": "third_party/EasyR1/verl/trainer/ray_trainer.py",
+      "source_sha256": "54b9cb7fccc78513440ed05f9c53fe80c43bf86425ae6067ea4a7d41d25017ca",
+      "release_sha256": "54b9cb7fccc78513440ed05f9c53fe80c43bf86425ae6067ea4a7d41d25017ca",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/__init__.py",
+      "destination": "third_party/EasyR1/verl/utils/__init__.py",
+      "source_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c",
+      "release_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/checkpoint/__init__.py",
+      "destination": "third_party/EasyR1/verl/utils/checkpoint/__init__.py",
+      "source_sha256": "af3f01995bb99df376811b5674c2fa3ccc91855ce46ee71d926a1721380c3c92",
+      "release_sha256": "af3f01995bb99df376811b5674c2fa3ccc91855ce46ee71d926a1721380c3c92",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/checkpoint/checkpoint_manager.py",
+      "destination": "third_party/EasyR1/verl/utils/checkpoint/checkpoint_manager.py",
+      "source_sha256": "af20ef83b0289591dbd1ccbd91c46dc4a4aadf0094bd6f89edfd743c39f4904f",
+      "release_sha256": "af20ef83b0289591dbd1ccbd91c46dc4a4aadf0094bd6f89edfd743c39f4904f",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/checkpoint/fsdp_checkpoint_manager.py",
+      "destination": "third_party/EasyR1/verl/utils/checkpoint/fsdp_checkpoint_manager.py",
+      "source_sha256": "525fdef04dcc8aba2973407428dc6f600f064187625a892b7d39f205db199179",
+      "release_sha256": "525fdef04dcc8aba2973407428dc6f600f064187625a892b7d39f205db199179",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/dataset.py",
+      "destination": "third_party/EasyR1/verl/utils/dataset.py",
+      "source_sha256": "ef4d0965f0d77aa6647e373048ccaa5becdc4539b23199571d34c48d8c3813af",
+      "release_sha256": "92f9695114b6a882acabefdc7d40f6741a9f36f9057f472fba5d39d0bd66586b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/flops_counter.py",
+      "destination": "third_party/EasyR1/verl/utils/flops_counter.py",
+      "source_sha256": "0b0121aeacd46cc29d721ea738f5fa5b1dde4866418b4c6de056f7cfce7574a6",
+      "release_sha256": "0b0121aeacd46cc29d721ea738f5fa5b1dde4866418b4c6de056f7cfce7574a6",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/fsdp_utils.py",
+      "destination": "third_party/EasyR1/verl/utils/fsdp_utils.py",
+      "source_sha256": "e3bb42cb978b313d12b264acdf4b258abe7d8bc02682e5bf4aae92f013a83ed2",
+      "release_sha256": "e3bb42cb978b313d12b264acdf4b258abe7d8bc02682e5bf4aae92f013a83ed2",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/logger/__init__.py",
+      "destination": "third_party/EasyR1/verl/utils/logger/__init__.py",
+      "source_sha256": "1139d6b27e3b16de699fbfb62af96996929975179ca2ee8f6f7440b5592aa9aa",
+      "release_sha256": "1139d6b27e3b16de699fbfb62af96996929975179ca2ee8f6f7440b5592aa9aa",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/logger/gen_logger.py",
+      "destination": "third_party/EasyR1/verl/utils/logger/gen_logger.py",
+      "source_sha256": "a34fc8761b5ddc3a02c3b368f1bae8b3f0b53cfb11fda8e294fc6e844c0ea95a",
+      "release_sha256": "a34fc8761b5ddc3a02c3b368f1bae8b3f0b53cfb11fda8e294fc6e844c0ea95a",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/logger/logger.py",
+      "destination": "third_party/EasyR1/verl/utils/logger/logger.py",
+      "source_sha256": "bef8fddc63d378770766fdba1f39937a98359e1f1c887084d970170933d91d24",
+      "release_sha256": "bef8fddc63d378770766fdba1f39937a98359e1f1c887084d970170933d91d24",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/model_utils.py",
+      "destination": "third_party/EasyR1/verl/utils/model_utils.py",
+      "source_sha256": "fb83e18b441b1de34c04b9798d58ba8dbc49df84466aab998db0826fd2cbf316",
+      "release_sha256": "fb83e18b441b1de34c04b9798d58ba8dbc49df84466aab998db0826fd2cbf316",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/py_functional.py",
+      "destination": "third_party/EasyR1/verl/utils/py_functional.py",
+      "source_sha256": "89be48d8c3a167febbf375a88a6fd5cec0f910741b1a4adeb55a40929d123c93",
+      "release_sha256": "89be48d8c3a167febbf375a88a6fd5cec0f910741b1a4adeb55a40929d123c93",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/seqlen_balancing.py",
+      "destination": "third_party/EasyR1/verl/utils/seqlen_balancing.py",
+      "source_sha256": "f1319a58338d64cbdbfffb9f881e2fe484cffc2b405fe078d0835985b412169d",
+      "release_sha256": "f1319a58338d64cbdbfffb9f881e2fe484cffc2b405fe078d0835985b412169d",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/tokenizer.py",
+      "destination": "third_party/EasyR1/verl/utils/tokenizer.py",
+      "source_sha256": "0e20ac39d453e7dc7a4498da91806a7e2629eb59e34c47a26edfdf6ffa6401dc",
+      "release_sha256": "0e20ac39d453e7dc7a4498da91806a7e2629eb59e34c47a26edfdf6ffa6401dc",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/torch_dtypes.py",
+      "destination": "third_party/EasyR1/verl/utils/torch_dtypes.py",
+      "source_sha256": "c3bb3c5d061b364ba412f927a82775cdca6205380d8ecbc25548f938be0fd30f",
+      "release_sha256": "c3bb3c5d061b364ba412f927a82775cdca6205380d8ecbc25548f938be0fd30f",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/torch_functional.py",
+      "destination": "third_party/EasyR1/verl/utils/torch_functional.py",
+      "source_sha256": "fd686c86f5e479acb39d873fef8eadc048e616f8c7a868ea50c71e925667e651",
+      "release_sha256": "fd686c86f5e479acb39d873fef8eadc048e616f8c7a868ea50c71e925667e651",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/ulysses.py",
+      "destination": "third_party/EasyR1/verl/utils/ulysses.py",
+      "source_sha256": "9ab1d44fec1a1cb985263a87933a731bf93b818f3ce2f785079c8b0aa50837b0",
+      "release_sha256": "9ab1d44fec1a1cb985263a87933a731bf93b818f3ce2f785079c8b0aa50837b0",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/utils/vllm_utils.py",
+      "destination": "third_party/EasyR1/verl/utils/vllm_utils.py",
+      "source_sha256": "fa2bc6eb613477302c0222d75133e3121e5e2514fd007320d001b2bd426143e9",
+      "release_sha256": "fa2bc6eb613477302c0222d75133e3121e5e2514fd007320d001b2bd426143e9",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/__init__.py",
+      "destination": "third_party/EasyR1/verl/workers/__init__.py",
+      "source_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c",
+      "release_sha256": "e65abd77db034b4f29eb1268c24867f84919dbce22e28d1997e563ed1d94179c",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/actor/__init__.py",
+      "destination": "third_party/EasyR1/verl/workers/actor/__init__.py",
+      "source_sha256": "dd070e1e7e9a5b742a10091b0fe2cd5760107843a006055132377535210961a2",
+      "release_sha256": "dd070e1e7e9a5b742a10091b0fe2cd5760107843a006055132377535210961a2",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/actor/base.py",
+      "destination": "third_party/EasyR1/verl/workers/actor/base.py",
+      "source_sha256": "d2fe132edff46e673e7c338615edd880efc7c347c16dde1cafbe063dd4318d01",
+      "release_sha256": "d2fe132edff46e673e7c338615edd880efc7c347c16dde1cafbe063dd4318d01",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/actor/config.py",
+      "destination": "third_party/EasyR1/verl/workers/actor/config.py",
+      "source_sha256": "f95864cb05d3219296071ff13423a623c0261270e71b94c755ddd5814dafa926",
+      "release_sha256": "f95864cb05d3219296071ff13423a623c0261270e71b94c755ddd5814dafa926",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/actor/dp_actor.py",
+      "destination": "third_party/EasyR1/verl/workers/actor/dp_actor.py",
+      "source_sha256": "2e7ba59831f4a8c0d01e918103f191554cb1bb70df7ee95efddc31c36bd6ded0",
+      "release_sha256": "2e7ba59831f4a8c0d01e918103f191554cb1bb70df7ee95efddc31c36bd6ded0",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/config.py",
+      "destination": "third_party/EasyR1/verl/workers/config.py",
+      "source_sha256": "00475242e75ea83b0692df09bf2ce42874d4eda35a7eedc56bc48938c0a0356c",
+      "release_sha256": "00475242e75ea83b0692df09bf2ce42874d4eda35a7eedc56bc48938c0a0356c",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/critic/__init__.py",
+      "destination": "third_party/EasyR1/verl/workers/critic/__init__.py",
+      "source_sha256": "bb434041e7522163ce3ca2bbda2ce330fd2fffad0f95524f061cd0df64a70208",
+      "release_sha256": "bb434041e7522163ce3ca2bbda2ce330fd2fffad0f95524f061cd0df64a70208",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/critic/base.py",
+      "destination": "third_party/EasyR1/verl/workers/critic/base.py",
+      "source_sha256": "d3d3cddc85e8da64dbc3cd256fd50a02f518da3a9cb15d2eebd9a14894113f48",
+      "release_sha256": "d3d3cddc85e8da64dbc3cd256fd50a02f518da3a9cb15d2eebd9a14894113f48",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/critic/config.py",
+      "destination": "third_party/EasyR1/verl/workers/critic/config.py",
+      "source_sha256": "79c8641a766c3f611a55110d4cf4f140b95e9f606efa214d26df45c37c4402c8",
+      "release_sha256": "79c8641a766c3f611a55110d4cf4f140b95e9f606efa214d26df45c37c4402c8",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/critic/dp_critic.py",
+      "destination": "third_party/EasyR1/verl/workers/critic/dp_critic.py",
+      "source_sha256": "7e597acdeff0082f04b64e33f797e3adbe31a1229e225d3491bff57f8b80dd8f",
+      "release_sha256": "7e597acdeff0082f04b64e33f797e3adbe31a1229e225d3491bff57f8b80dd8f",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/fsdp_workers.py",
+      "destination": "third_party/EasyR1/verl/workers/fsdp_workers.py",
+      "source_sha256": "38a0efbcad3d349134c88d8ed91f65dedc5a189dd217fe71d1e946058b76c453",
+      "release_sha256": "38a0efbcad3d349134c88d8ed91f65dedc5a189dd217fe71d1e946058b76c453",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/reward/__init__.py",
+      "destination": "third_party/EasyR1/verl/workers/reward/__init__.py",
+      "source_sha256": "4c9c55efeb8c5fc040b685b2c0a7d69f529556de344f1681453392d7e7768893",
+      "release_sha256": "4c9c55efeb8c5fc040b685b2c0a7d69f529556de344f1681453392d7e7768893",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/reward/config.py",
+      "destination": "third_party/EasyR1/verl/workers/reward/config.py",
+      "source_sha256": "5d6a155a90f30d067ec49f25bd607350ade9a9be996701755a417ad0b03c7879",
+      "release_sha256": "5d6a155a90f30d067ec49f25bd607350ade9a9be996701755a417ad0b03c7879",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/reward/function.py",
+      "destination": "third_party/EasyR1/verl/workers/reward/function.py",
+      "source_sha256": "59fa38dda0d879d76b82bf3c37815df4ccc6c33c9e39390da8933cc310bdfc3b",
+      "release_sha256": "59fa38dda0d879d76b82bf3c37815df4ccc6c33c9e39390da8933cc310bdfc3b",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/rollout/__init__.py",
+      "destination": "third_party/EasyR1/verl/workers/rollout/__init__.py",
+      "source_sha256": "c6cb40fd12bcbf04fe8c9bef9f1669adec38f6a09956682a35cac4e6dc594560",
+      "release_sha256": "c6cb40fd12bcbf04fe8c9bef9f1669adec38f6a09956682a35cac4e6dc594560",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/rollout/base.py",
+      "destination": "third_party/EasyR1/verl/workers/rollout/base.py",
+      "source_sha256": "7cf5fe139d23f17ef028d71fc528425de061a6842ed6f74cfe0c7db49b7fd00d",
+      "release_sha256": "7cf5fe139d23f17ef028d71fc528425de061a6842ed6f74cfe0c7db49b7fd00d",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/rollout/config.py",
+      "destination": "third_party/EasyR1/verl/workers/rollout/config.py",
+      "source_sha256": "2d76cf77f02024f3326e9e24f970944ab26896e0fb00ea0af5f58a37c0e8171b",
+      "release_sha256": "2d76cf77f02024f3326e9e24f970944ab26896e0fb00ea0af5f58a37c0e8171b",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/rollout/vllm_rollout_spmd.py",
+      "destination": "third_party/EasyR1/verl/workers/rollout/vllm_rollout_spmd.py",
+      "source_sha256": "d2db2ec1ccc9e8e626c3a1085cf2fe75d3c098db20910fe8cfee2d9dbaf813e1",
+      "release_sha256": "d2db2ec1ccc9e8e626c3a1085cf2fe75d3c098db20910fe8cfee2d9dbaf813e1",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/sharding_manager/__init__.py",
+      "destination": "third_party/EasyR1/verl/workers/sharding_manager/__init__.py",
+      "source_sha256": "d736c2258db98c57fa97613b0128268e438cfd48ed309ebc8decdf1947d40bce",
+      "release_sha256": "d736c2258db98c57fa97613b0128268e438cfd48ed309ebc8decdf1947d40bce",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/sharding_manager/base.py",
+      "destination": "third_party/EasyR1/verl/workers/sharding_manager/base.py",
+      "source_sha256": "e7f8645a6e4b34dac2e19229bb0c18e5f1de4993fbcb7f84640ef1e6244d15c2",
+      "release_sha256": "e7f8645a6e4b34dac2e19229bb0c18e5f1de4993fbcb7f84640ef1e6244d15c2",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/sharding_manager/fsdp_ulysses.py",
+      "destination": "third_party/EasyR1/verl/workers/sharding_manager/fsdp_ulysses.py",
+      "source_sha256": "dd3a8b3252787f3a711396e5015b24b3ea44a452db21f85c8680efa78646d64b",
+      "release_sha256": "dd3a8b3252787f3a711396e5015b24b3ea44a452db21f85c8680efa78646d64b",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/verl/workers/sharding_manager/fsdp_vllm.py",
+      "destination": "third_party/EasyR1/verl/workers/sharding_manager/fsdp_vllm.py",
+      "source_sha256": "b85ed4699b0f4b71d17ad56b8f246b503524540c879bddfb6d6a57f391dd8124",
+      "release_sha256": "b85ed4699b0f4b71d17ad56b8f246b503524540c879bddfb6d6a57f391dd8124",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/LICENSE",
+      "destination": "third_party/EasyR1/LICENSE",
+      "source_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "release_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/README.md",
+      "destination": "third_party/EasyR1/README.md",
+      "source_sha256": "91757a9a86103f17db67d0a6e83d892b28a83f3040596e3e473d1cb3c68f87db",
+      "release_sha256": "91757a9a86103f17db67d0a6e83d892b28a83f3040596e3e473d1cb3c68f87db",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/requirements.txt",
+      "destination": "third_party/EasyR1/requirements.txt",
+      "source_sha256": "427f17a662ef46120f1d81ff044c0b82ba994d0b4a838d5be32e2b7278470ca6",
+      "release_sha256": "427f17a662ef46120f1d81ff044c0b82ba994d0b4a838d5be32e2b7278470ca6",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/setup.py",
+      "destination": "third_party/EasyR1/setup.py",
+      "source_sha256": "c5d39671c9eecc1245e2f404d4f1e83964ff92d1d8bc1f3b8e561c10d5edf503",
+      "release_sha256": "c5d39671c9eecc1245e2f404d4f1e83964ff92d1d8bc1f3b8e561c10d5edf503",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/pyproject.toml",
+      "destination": "third_party/EasyR1/pyproject.toml",
+      "source_sha256": "3e38c2149400aa1221e4b1e0808da5ca5e0535f7e055acb50caa214e4fc9a2e6",
+      "release_sha256": "3e38c2149400aa1221e4b1e0808da5ca5e0535f7e055acb50caa214e4fc9a2e6",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/examples/reward_function/ctorg.py",
+      "destination": "third_party/EasyR1/examples/reward_function/ctorg.py",
+      "source_sha256": "ec11be9d1259c46b6b99f7174813c479e9f6a811953a0f70c923005892dfd555",
+      "release_sha256": "3fc12133585e1072ee2e4319354068193c1ec1551a5244e185332b174d454a68",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/EasyR1/examples/reward_function/kits23.py",
+      "destination": "third_party/EasyR1/examples/reward_function/kits23.py",
+      "source_sha256": "366edafef59529968c1853f3521df429eb161d6983bc5d5033b074cc65a14195",
+      "release_sha256": "98b95953949036ad448a1cf17ecc283c19019ef388094e2653b680c585f33a4a",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/EasyR1/examples/reward_function/ct_grounding.py",
+      "destination": "third_party/EasyR1/examples/reward_function/ct_grounding.py",
+      "source_sha256": "956eff4c46a6b0e0854dd4c30bba912eb501b1d560a80c6c07ffa4f6580a759d",
+      "release_sha256": "956eff4c46a6b0e0854dd4c30bba912eb501b1d560a80c6c07ffa4f6580a759d",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/examples/reward_function/ct_grounding_16.py",
+      "destination": "third_party/EasyR1/examples/reward_function/ct_grounding_16.py",
+      "source_sha256": "5109676db80a52ef5eba112a43e0d93a6c6f2e0f7beab1e8ff092b92a2780602",
+      "release_sha256": "5109676db80a52ef5eba112a43e0d93a6c6f2e0f7beab1e8ff092b92a2780602",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/examples/reward_function/ct_grounding_16_multi.py",
+      "destination": "third_party/EasyR1/examples/reward_function/ct_grounding_16_multi.py",
+      "source_sha256": "534102af0edd882279dcc3b5ff10f0cf62daefdf9e714dd4324606edfeab37cd",
+      "release_sha256": "534102af0edd882279dcc3b5ff10f0cf62daefdf9e714dd4324606edfeab37cd",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/examples/reward_function/vision_reasoner.py",
+      "destination": "third_party/EasyR1/examples/reward_function/vision_reasoner.py",
+      "source_sha256": "b148abedd9a2850f0912a623c616053ebe8fe658a3038fb42841efeb22fbdde9",
+      "release_sha256": "b148abedd9a2850f0912a623c616053ebe8fe658a3038fb42841efeb22fbdde9",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/scripts/model_merger.py",
+      "destination": "third_party/EasyR1/scripts/model_merger.py",
+      "source_sha256": "0c7a7ceb4dd60893c960a57c1728df2b66268874de36dfd9103e6b2e2af36e75",
+      "release_sha256": "0c7a7ceb4dd60893c960a57c1728df2b66268874de36dfd9103e6b2e2af36e75",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/EasyR1/scripts/merge_lora_actor.py",
+      "destination": "third_party/EasyR1/scripts/merge_lora_actor.py",
+      "source_sha256": "f68e388c9f3ccd572a733833cc0a682b39a690653bb11c9c2c16a435d4862cc6",
+      "release_sha256": "b4aa1db43413794667320058441e2673dc842466730e6560b0b2cdeeb90d32cb",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/api.py",
+      "destination": "third_party/LLaMA-Factory/src/api.py",
+      "source_sha256": "0b71f05f83c8f33a5ee63be1587df5829196ce312929e838a927b75640197a3a",
+      "release_sha256": "0b71f05f83c8f33a5ee63be1587df5829196ce312929e838a927b75640197a3a",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/__init__.py",
+      "source_sha256": "ac3cedbab920eb4ff39a0aa78ebc614a55d7afac85278396ebbc124f857b3ea6",
+      "release_sha256": "ac3cedbab920eb4ff39a0aa78ebc614a55d7afac85278396ebbc124f857b3ea6",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/api/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/api/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/api/app.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/api/app.py",
+      "source_sha256": "2a6b905d67ffdc4f62343deb6971ef01f89652e9392d0e1da76994abbea3aba0",
+      "release_sha256": "2a6b905d67ffdc4f62343deb6971ef01f89652e9392d0e1da76994abbea3aba0",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/api/chat.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/api/chat.py",
+      "source_sha256": "017f93f1d54429adce61924ed25bf61be1d26da315233398b1d448b2120f1661",
+      "release_sha256": "017f93f1d54429adce61924ed25bf61be1d26da315233398b1d448b2120f1661",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/api/common.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/api/common.py",
+      "source_sha256": "86c278f4bca6ec354364aa108878f04c360e0e97b8163f6f107349b7a3e2ffa3",
+      "release_sha256": "86c278f4bca6ec354364aa108878f04c360e0e97b8163f6f107349b7a3e2ffa3",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/api/protocol.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/api/protocol.py",
+      "source_sha256": "e8bcdd6ec45fb4a5aaec34a8becf9b954291ab4725905e60d50ac4f1ed787b4d",
+      "release_sha256": "e8bcdd6ec45fb4a5aaec34a8becf9b954291ab4725905e60d50ac4f1ed787b4d",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/chat/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/chat/__init__.py",
+      "source_sha256": "15f9960ed2e888daa1d3104a736d138927b3a86f4faf01446d2046da386eed9d",
+      "release_sha256": "15f9960ed2e888daa1d3104a736d138927b3a86f4faf01446d2046da386eed9d",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/chat/base_engine.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/chat/base_engine.py",
+      "source_sha256": "21f8f22fe96ee40d480591d419e54fb07b4743e2905d683d297571b668eba55f",
+      "release_sha256": "21f8f22fe96ee40d480591d419e54fb07b4743e2905d683d297571b668eba55f",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/chat/chat_model.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/chat/chat_model.py",
+      "source_sha256": "750a11b22e557ad3fd6d683895b2373937a79de143178c78ccb81fae261a06d1",
+      "release_sha256": "750a11b22e557ad3fd6d683895b2373937a79de143178c78ccb81fae261a06d1",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/chat/hf_engine.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/chat/hf_engine.py",
+      "source_sha256": "e7cd2ede522cd357ea86115a2aab6aadb768ff2f336710fb5871a1b2f3bb3514",
+      "release_sha256": "e7cd2ede522cd357ea86115a2aab6aadb768ff2f336710fb5871a1b2f3bb3514",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/chat/kt_engine.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/chat/kt_engine.py",
+      "source_sha256": "96f6a2783e1cc8df5b4853ae96a3feb28e554a3064cd602edb9bda411b62544f",
+      "release_sha256": "96f6a2783e1cc8df5b4853ae96a3feb28e554a3064cd602edb9bda411b62544f",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/chat/sglang_engine.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/chat/sglang_engine.py",
+      "source_sha256": "5415a34ceeb8173763083b638b6bf37e33754e6643393baed1c1c719f2440766",
+      "release_sha256": "5415a34ceeb8173763083b638b6bf37e33754e6643393baed1c1c719f2440766",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/chat/vllm_engine.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/chat/vllm_engine.py",
+      "source_sha256": "5dac30a729f8c6c719dbe2552965d5893d4edfb36fccf9a56f915b90b35b04ef",
+      "release_sha256": "5dac30a729f8c6c719dbe2552965d5893d4edfb36fccf9a56f915b90b35b04ef",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/cli.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/cli.py",
+      "source_sha256": "d32b69e0b379718a9d0cf7bbf7032e6104f234cf53b13ad9e276a4a3fe7530d8",
+      "release_sha256": "d32b69e0b379718a9d0cf7bbf7032e6104f234cf53b13ad9e276a4a3fe7530d8",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/data/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/data/__init__.py",
+      "source_sha256": "e00ca55d2a9a73063c69a334d1595480b1802ace8a1589f5e59fa40493021c3a",
+      "release_sha256": "e00ca55d2a9a73063c69a334d1595480b1802ace8a1589f5e59fa40493021c3a",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/data/collator.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/data/collator.py",
+      "source_sha256": "5be4ca6984a2f99d4dea627c2ef0fff95c66a8d73326a4ceae61dd01f56c7390",
+      "release_sha256": "5be4ca6984a2f99d4dea627c2ef0fff95c66a8d73326a4ceae61dd01f56c7390",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/data/converter.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/data/converter.py",
+      "source_sha256": "10bdab384ea146ddad9f5d9373cdaa59fbe64db22e0128e2b32810f65d366080",
+      "release_sha256": "10bdab384ea146ddad9f5d9373cdaa59fbe64db22e0128e2b32810f65d366080",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/data/data_utils.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/data/data_utils.py",
+      "source_sha256": "0a3ea47c5804c0ed304757dc35626efc927a992788beb5a0cdac5672cf1d60d2",
+      "release_sha256": "0a3ea47c5804c0ed304757dc35626efc927a992788beb5a0cdac5672cf1d60d2",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/data/formatter.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/data/formatter.py",
+      "source_sha256": "e7f08d1e1168827d36d8aae3b626836e55b1a947d99e214125fe44f7a91afd6b",
+      "release_sha256": "e7f08d1e1168827d36d8aae3b626836e55b1a947d99e214125fe44f7a91afd6b",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/data/loader.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/data/loader.py",
+      "source_sha256": "07a16266a86fa4f7e963f47349994ed5271f1ea85478a3e9c170a79b2cd854bd",
+      "release_sha256": "07a16266a86fa4f7e963f47349994ed5271f1ea85478a3e9c170a79b2cd854bd",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/data/mm_plugin.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/data/mm_plugin.py",
+      "source_sha256": "8e002053b1c65bb78d95eaa91dc4a04e47a8f63c9ee51367bbaf1098eeb1869b",
+      "release_sha256": "8e002053b1c65bb78d95eaa91dc4a04e47a8f63c9ee51367bbaf1098eeb1869b",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/data/parser.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/data/parser.py",
+      "source_sha256": "cca916a346c50b399555051eb98b62d28e2643f7c9764c6d8457db016a0f0155",
+      "release_sha256": "cca916a346c50b399555051eb98b62d28e2643f7c9764c6d8457db016a0f0155",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/data/processor/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/data/processor/__init__.py",
+      "source_sha256": "37e001ac9f5bc6495a2a354df683523d872ce43caba6d92cb673e7948fbc86a9",
+      "release_sha256": "37e001ac9f5bc6495a2a354df683523d872ce43caba6d92cb673e7948fbc86a9",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/data/processor/feedback.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/data/processor/feedback.py",
+      "source_sha256": "970982a407048382ecd4e3836b3c0273522e8d797fd4f9b89f131b314437d596",
+      "release_sha256": "970982a407048382ecd4e3836b3c0273522e8d797fd4f9b89f131b314437d596",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/data/processor/pairwise.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/data/processor/pairwise.py",
+      "source_sha256": "de5e30236c8199c53bc5fb2fbea48590f137f47709167570e99a9c65d5bd3249",
+      "release_sha256": "de5e30236c8199c53bc5fb2fbea48590f137f47709167570e99a9c65d5bd3249",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/data/processor/pretrain.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/data/processor/pretrain.py",
+      "source_sha256": "e2373327e199e342a46d499a78e74bf2bd6be31560b079c25d79c68ac27abe85",
+      "release_sha256": "e2373327e199e342a46d499a78e74bf2bd6be31560b079c25d79c68ac27abe85",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/data/processor/processor_utils.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/data/processor/processor_utils.py",
+      "source_sha256": "5452edcf5e9ea67bfec3369537d478d65d17adc3c925aa95fda7a12453038204",
+      "release_sha256": "5452edcf5e9ea67bfec3369537d478d65d17adc3c925aa95fda7a12453038204",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/data/processor/supervised.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/data/processor/supervised.py",
+      "source_sha256": "21554b511accf3bbc2478e03385c0f7aaabca1b94de3a0c0f294c1f0486c3296",
+      "release_sha256": "21554b511accf3bbc2478e03385c0f7aaabca1b94de3a0c0f294c1f0486c3296",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/data/processor/unsupervised.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/data/processor/unsupervised.py",
+      "source_sha256": "6309fcf8f2edc9f8b938baef0f1c1f2ed025cd10710cc3ed62e761c37a48ea39",
+      "release_sha256": "6309fcf8f2edc9f8b938baef0f1c1f2ed025cd10710cc3ed62e761c37a48ea39",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/data/template.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/data/template.py",
+      "source_sha256": "b5bb19ef563a3b099ce08442d8279d3716dcdf0704516306d8092d799d9070b7",
+      "release_sha256": "b5bb19ef563a3b099ce08442d8279d3716dcdf0704516306d8092d799d9070b7",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/data/tool_utils.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/data/tool_utils.py",
+      "source_sha256": "e7fd42993b82a36424b40d1d2ebcb1748ce25d4f4a7c72a7eb046df93c88885c",
+      "release_sha256": "e7fd42993b82a36424b40d1d2ebcb1748ce25d4f4a7c72a7eb046df93c88885c",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/eval/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/eval/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/eval/evaluator.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/eval/evaluator.py",
+      "source_sha256": "133b27cfd5ee7aafcc9f0c8e69bcbffac9078fd78b50af9b3c7d5ac5580cb6c4",
+      "release_sha256": "133b27cfd5ee7aafcc9f0c8e69bcbffac9078fd78b50af9b3c7d5ac5580cb6c4",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/eval/template.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/eval/template.py",
+      "source_sha256": "07223c49634e8b8c0319b431d70c208f176e0ddda8782d1c758478d3c4e8e33e",
+      "release_sha256": "07223c49634e8b8c0319b431d70c208f176e0ddda8782d1c758478d3c4e8e33e",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/extras/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/extras/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/extras/constants.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/extras/constants.py",
+      "source_sha256": "403b78458ca8e4b8239aec9711e70723922433f0bc5e94f79e9955a390b9a640",
+      "release_sha256": "403b78458ca8e4b8239aec9711e70723922433f0bc5e94f79e9955a390b9a640",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/extras/env.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/extras/env.py",
+      "source_sha256": "dfa7dc14ea9f66a175212df61fcdd4ec9f5f2fe0c35f5e26cb3785d8422e0c18",
+      "release_sha256": "dfa7dc14ea9f66a175212df61fcdd4ec9f5f2fe0c35f5e26cb3785d8422e0c18",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/extras/logging.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/extras/logging.py",
+      "source_sha256": "ee04067888d1de12b5aed4e721ef9e7d9f7055c5906972f2c39c768ad2cbe261",
+      "release_sha256": "ee04067888d1de12b5aed4e721ef9e7d9f7055c5906972f2c39c768ad2cbe261",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/extras/misc.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/extras/misc.py",
+      "source_sha256": "4929f49e02bf4ff294194fb8276b1eb9bca6d0dff7cb3db626c166fc5e1ec2fc",
+      "release_sha256": "4929f49e02bf4ff294194fb8276b1eb9bca6d0dff7cb3db626c166fc5e1ec2fc",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/extras/packages.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/extras/packages.py",
+      "source_sha256": "a08e40935e193f4e6e604437d8529f911069fe3538c1737344f5c5e5dfe6428a",
+      "release_sha256": "a08e40935e193f4e6e604437d8529f911069fe3538c1737344f5c5e5dfe6428a",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/extras/ploting.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/extras/ploting.py",
+      "source_sha256": "19a266908828daa94d859b037338aceaffd19aaeee1f081bff1063b67201cd6f",
+      "release_sha256": "19a266908828daa94d859b037338aceaffd19aaeee1f081bff1063b67201cd6f",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/hparams/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/hparams/__init__.py",
+      "source_sha256": "5db5c8a01e9e6380b530d126ac536527714aaec3516f22073635f6e95681fdf4",
+      "release_sha256": "5db5c8a01e9e6380b530d126ac536527714aaec3516f22073635f6e95681fdf4",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/hparams/data_args.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/hparams/data_args.py",
+      "source_sha256": "90fbe15fd9d4fe9975bcbad0e4c32ddde303c5417bdd026ec1b945b2b7d42e39",
+      "release_sha256": "90fbe15fd9d4fe9975bcbad0e4c32ddde303c5417bdd026ec1b945b2b7d42e39",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/hparams/evaluation_args.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/hparams/evaluation_args.py",
+      "source_sha256": "4be4a7eca938147c963c8ec94a219e5524090961ba0a0cc72a22bc7df42ff686",
+      "release_sha256": "4be4a7eca938147c963c8ec94a219e5524090961ba0a0cc72a22bc7df42ff686",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/hparams/finetuning_args.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/hparams/finetuning_args.py",
+      "source_sha256": "7098bb43b3c9cfe2e3eb8feacdd9e2cfb3d1151c9f178a57d19f57f133a30733",
+      "release_sha256": "7098bb43b3c9cfe2e3eb8feacdd9e2cfb3d1151c9f178a57d19f57f133a30733",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/hparams/generating_args.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/hparams/generating_args.py",
+      "source_sha256": "23b8453d233580a4a10765ae0ac5e0c15652a57b5d0e3612ad0473630a6445b4",
+      "release_sha256": "23b8453d233580a4a10765ae0ac5e0c15652a57b5d0e3612ad0473630a6445b4",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/hparams/model_args.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/hparams/model_args.py",
+      "source_sha256": "f1321c89d37499a352e0f62d91418236001e3331d5cbdebdc4512761e4873962",
+      "release_sha256": "f1321c89d37499a352e0f62d91418236001e3331d5cbdebdc4512761e4873962",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/hparams/parser.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/hparams/parser.py",
+      "source_sha256": "cda5d091d850ade6f73611837637bf47f6abc6d9a331a60abf1f543cf564152c",
+      "release_sha256": "cda5d091d850ade6f73611837637bf47f6abc6d9a331a60abf1f543cf564152c",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/hparams/training_args.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/hparams/training_args.py",
+      "source_sha256": "48c377b8ac2d24329b28738791efa5c0203f2aa19f1f5aad7f2fd99826fd016c",
+      "release_sha256": "48c377b8ac2d24329b28738791efa5c0203f2aa19f1f5aad7f2fd99826fd016c",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/launcher.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/launcher.py",
+      "source_sha256": "a2d79d6dab3935422a69de8f1a47eda1de60ce4a0bcaf0dc02032bd88c221bde",
+      "release_sha256": "a2d79d6dab3935422a69de8f1a47eda1de60ce4a0bcaf0dc02032bd88c221bde",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/__init__.py",
+      "source_sha256": "ecc13a66e380265e515c6bffbbd142061aed779905c00c5638233919d96379a4",
+      "release_sha256": "ecc13a66e380265e515c6bffbbd142061aed779905c00c5638233919d96379a4",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/adapter.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/adapter.py",
+      "source_sha256": "db1ec6792e9b1b437071087257e973d092a25b4fb519eba58662b826ea0e9bf4",
+      "release_sha256": "db1ec6792e9b1b437071087257e973d092a25b4fb519eba58662b826ea0e9bf4",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/loader.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/loader.py",
+      "source_sha256": "be5640fe65911c7ac7bfe297486532f3c2ba3ec9f9b1ae9d474051750b794632",
+      "release_sha256": "be5640fe65911c7ac7bfe297486532f3c2ba3ec9f9b1ae9d474051750b794632",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/model_utils/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/model_utils/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/model_utils/attention.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/model_utils/attention.py",
+      "source_sha256": "32eb2bcb548f83ff6e70c9c5fee438152131cf66dc42406b995812aa2cdaf4ff",
+      "release_sha256": "32eb2bcb548f83ff6e70c9c5fee438152131cf66dc42406b995812aa2cdaf4ff",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/model_utils/checkpointing.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/model_utils/checkpointing.py",
+      "source_sha256": "87a91bbc45c2763e93fa5e9a837eaf07c04c1442eb10bb0d1615f2b0b96e2ea0",
+      "release_sha256": "87a91bbc45c2763e93fa5e9a837eaf07c04c1442eb10bb0d1615f2b0b96e2ea0",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/model_utils/embedding.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/model_utils/embedding.py",
+      "source_sha256": "03d55b82f94879dec7dbb15433c2b71b2d3ecc96abce3bd82996fb05b2c10fa3",
+      "release_sha256": "03d55b82f94879dec7dbb15433c2b71b2d3ecc96abce3bd82996fb05b2c10fa3",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/model_utils/ktransformers.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/model_utils/ktransformers.py",
+      "source_sha256": "5b30079da945c8d4ccc6f853a1df962eefd135515fde74f207076d41d0e60ced",
+      "release_sha256": "5b30079da945c8d4ccc6f853a1df962eefd135515fde74f207076d41d0e60ced",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/model_utils/kv_cache.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/model_utils/kv_cache.py",
+      "source_sha256": "a162a35c87762bf91f9ada0714d4da24e83abc2929fe82f3946a6c9beebbe894",
+      "release_sha256": "a162a35c87762bf91f9ada0714d4da24e83abc2929fe82f3946a6c9beebbe894",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/model_utils/liger_kernel.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/model_utils/liger_kernel.py",
+      "source_sha256": "6b5089648a51e77a7ae58800ad3947ca73e0a3db11e2b2d5db5bf6667ebacef2",
+      "release_sha256": "6b5089648a51e77a7ae58800ad3947ca73e0a3db11e2b2d5db5bf6667ebacef2",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/model_utils/longlora.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/model_utils/longlora.py",
+      "source_sha256": "a38ad775c223a4eabcf4f8840d72b854b1f00841ab09bd11478da2c540e1e393",
+      "release_sha256": "a38ad775c223a4eabcf4f8840d72b854b1f00841ab09bd11478da2c540e1e393",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/model_utils/misc.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/model_utils/misc.py",
+      "source_sha256": "ac03f5286f53ef320242c4088219ac8165cb1d90f4d7262c5687cb07732daf76",
+      "release_sha256": "ac03f5286f53ef320242c4088219ac8165cb1d90f4d7262c5687cb07732daf76",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/model_utils/mod.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/model_utils/mod.py",
+      "source_sha256": "675e96990dd09995a7540f60f12a3a51cb3b57c7f97cdf9a05902d9c2f5aca36",
+      "release_sha256": "675e96990dd09995a7540f60f12a3a51cb3b57c7f97cdf9a05902d9c2f5aca36",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/model_utils/moe.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/model_utils/moe.py",
+      "source_sha256": "4c3f1fc1d1c55607bc980a2ce82728e39eb8122d2ad10ea03107a96e8f91b60d",
+      "release_sha256": "4c3f1fc1d1c55607bc980a2ce82728e39eb8122d2ad10ea03107a96e8f91b60d",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/model_utils/packing.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/model_utils/packing.py",
+      "source_sha256": "9f0c3140a62f526be38683b0b2d99e75033a8345ef31dfc16b3214e3ba0a246b",
+      "release_sha256": "9f0c3140a62f526be38683b0b2d99e75033a8345ef31dfc16b3214e3ba0a246b",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/model_utils/quantization.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/model_utils/quantization.py",
+      "source_sha256": "627713efedb297e0424252fd5e6a1e674b3cadf829bc3432968182403d8f085f",
+      "release_sha256": "627713efedb297e0424252fd5e6a1e674b3cadf829bc3432968182403d8f085f",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/model_utils/rope.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/model_utils/rope.py",
+      "source_sha256": "1a63e7b1a16f1f8a9eaeae8c26763b1ee036a88c676fd0ff68a9c8a168aab5ae",
+      "release_sha256": "1a63e7b1a16f1f8a9eaeae8c26763b1ee036a88c676fd0ff68a9c8a168aab5ae",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/model_utils/unsloth.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/model_utils/unsloth.py",
+      "source_sha256": "40d3498feeb9d27a4ebe9ecb01b7a6a33feace62dd5cce27b850277af087bac8",
+      "release_sha256": "40d3498feeb9d27a4ebe9ecb01b7a6a33feace62dd5cce27b850277af087bac8",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/model_utils/valuehead.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/model_utils/valuehead.py",
+      "source_sha256": "151023380cb75e1d7fb120de1cea2af6b2fc6159d84be85dacdd872055087412",
+      "release_sha256": "151023380cb75e1d7fb120de1cea2af6b2fc6159d84be85dacdd872055087412",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/model_utils/visual.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/model_utils/visual.py",
+      "source_sha256": "0f9a4609a5dee6d2b571d0b6b9fb3a9ce34c66ac7a38fb1b8eac27c1908cfa48",
+      "release_sha256": "0f9a4609a5dee6d2b571d0b6b9fb3a9ce34c66ac7a38fb1b8eac27c1908cfa48",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/model/patcher.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/model/patcher.py",
+      "source_sha256": "4b54c756a9896e71f0ce44f4873cbf961306628eaf5da9e2e70fc667109437b9",
+      "release_sha256": "4b54c756a9896e71f0ce44f4873cbf961306628eaf5da9e2e70fc667109437b9",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/third_party/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/third_party/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/third_party/muon/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/third_party/muon/__init__.py",
+      "source_sha256": "d3d8af7d3e2a9eceafc91afc6ad367485c96c636eb8f27c86c6dcdf88bc727ad",
+      "release_sha256": "d3d8af7d3e2a9eceafc91afc6ad367485c96c636eb8f27c86c6dcdf88bc727ad",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/third_party/muon/muon.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/third_party/muon/muon.py",
+      "source_sha256": "dc30cd84142fe2f80d0d4728648e9270550907bd6f4bfd7b1becffd0215910ea",
+      "release_sha256": "dc30cd84142fe2f80d0d4728648e9270550907bd6f4bfd7b1becffd0215910ea",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/callbacks.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/callbacks.py",
+      "source_sha256": "8dc4e36305f222c52c91627f8a440e8dde621b84cd208585e328fa3c667dda3a",
+      "release_sha256": "8dc4e36305f222c52c91627f8a440e8dde621b84cd208585e328fa3c667dda3a",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/dpo/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/dpo/__init__.py",
+      "source_sha256": "9b2dbca82aee3f7704500647336a7956d6029552020c1c5de7f1e2ec6d9cca9b",
+      "release_sha256": "9b2dbca82aee3f7704500647336a7956d6029552020c1c5de7f1e2ec6d9cca9b",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/dpo/trainer.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/dpo/trainer.py",
+      "source_sha256": "a2cb1bb83e9c093824d2ab617598c980ba6ec29ab70a5c66efbba8e4434ec831",
+      "release_sha256": "a2cb1bb83e9c093824d2ab617598c980ba6ec29ab70a5c66efbba8e4434ec831",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/dpo/workflow.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/dpo/workflow.py",
+      "source_sha256": "53c431a31f9868fe55249d9a9fb387e1c154b3936fedb3c3ecfa25e41a93210d",
+      "release_sha256": "53c431a31f9868fe55249d9a9fb387e1c154b3936fedb3c3ecfa25e41a93210d",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/fp8_utils.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/fp8_utils.py",
+      "source_sha256": "8654be3a74da4fcf428472ee65b7726a08455c9b2451b399537680774c771cf6",
+      "release_sha256": "8654be3a74da4fcf428472ee65b7726a08455c9b2451b399537680774c771cf6",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/ksft/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/ksft/__init__.py",
+      "source_sha256": "b483c6da6114a2b0156011eed3b01da365daa98141787973367fca02ab0ce677",
+      "release_sha256": "b483c6da6114a2b0156011eed3b01da365daa98141787973367fca02ab0ce677",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/ksft/workflow.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/ksft/workflow.py",
+      "source_sha256": "078cfcd38cba92cb76205b9e5635cc9589184554b23726c4ffb617a24855be9f",
+      "release_sha256": "078cfcd38cba92cb76205b9e5635cc9589184554b23726c4ffb617a24855be9f",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/kto/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/kto/__init__.py",
+      "source_sha256": "40bade681d34f680959be317376ceadcea6504164debc937455a07900ce3692b",
+      "release_sha256": "40bade681d34f680959be317376ceadcea6504164debc937455a07900ce3692b",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/kto/trainer.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/kto/trainer.py",
+      "source_sha256": "a99bd803fa9c4a979ccda70b10a6b87c66c17cab29fe02f5a849d7d1a11ef545",
+      "release_sha256": "a99bd803fa9c4a979ccda70b10a6b87c66c17cab29fe02f5a849d7d1a11ef545",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/kto/workflow.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/kto/workflow.py",
+      "source_sha256": "694d66cadb3d0f0e6e7611753e7067b78fdd2f99dccb4388fef783f8eb0d9777",
+      "release_sha256": "694d66cadb3d0f0e6e7611753e7067b78fdd2f99dccb4388fef783f8eb0d9777",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/mca/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/mca/__init__.py",
+      "source_sha256": "ba72c89df2a9c836622adb550b513efcdf11465af981c688b2d58a2761b55338",
+      "release_sha256": "ba72c89df2a9c836622adb550b513efcdf11465af981c688b2d58a2761b55338",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/mca/trainer.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/mca/trainer.py",
+      "source_sha256": "92672f10af73a550ace7f0958c9d52ec866d7eddeaa1bc652a339f954ced2c0e",
+      "release_sha256": "92672f10af73a550ace7f0958c9d52ec866d7eddeaa1bc652a339f954ced2c0e",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/mca/workflow.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/mca/workflow.py",
+      "source_sha256": "b2442181f1fe151566e02d8f8c6e3d969a2275624b86de6052e9f8e8f30db0aa",
+      "release_sha256": "b2442181f1fe151566e02d8f8c6e3d969a2275624b86de6052e9f8e8f30db0aa",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/ppo/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/ppo/__init__.py",
+      "source_sha256": "f418101b642522951b2b24a9076b07afb09f2a16d5877dd4a352ab3603c56f0f",
+      "release_sha256": "f418101b642522951b2b24a9076b07afb09f2a16d5877dd4a352ab3603c56f0f",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/ppo/ppo_utils.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/ppo/ppo_utils.py",
+      "source_sha256": "776bdd79746ccfc86998dfa489b4339892d39d0101b896a1da93279f2dc86c59",
+      "release_sha256": "776bdd79746ccfc86998dfa489b4339892d39d0101b896a1da93279f2dc86c59",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/ppo/trainer.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/ppo/trainer.py",
+      "source_sha256": "9858d6d6a799f27a4b84ba17b213f6fc4c4c1e004b600b8783d89f15c3393cac",
+      "release_sha256": "9858d6d6a799f27a4b84ba17b213f6fc4c4c1e004b600b8783d89f15c3393cac",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/ppo/workflow.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/ppo/workflow.py",
+      "source_sha256": "62f78fcd3e735723f14b7b4a6ca5620a33c2aec58f0007e391284637a16a713f",
+      "release_sha256": "62f78fcd3e735723f14b7b4a6ca5620a33c2aec58f0007e391284637a16a713f",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/pt/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/pt/__init__.py",
+      "source_sha256": "bcb16c0d3e8aece0a6e5392ce746640ea9a23e3cfc26f89b979ce7d8bf8a37f3",
+      "release_sha256": "bcb16c0d3e8aece0a6e5392ce746640ea9a23e3cfc26f89b979ce7d8bf8a37f3",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/pt/trainer.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/pt/trainer.py",
+      "source_sha256": "5181d040c98107e17728a0c382f3bb9597ebbf2a080678e52b065ed3cab860a0",
+      "release_sha256": "5181d040c98107e17728a0c382f3bb9597ebbf2a080678e52b065ed3cab860a0",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/pt/workflow.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/pt/workflow.py",
+      "source_sha256": "760130406928e26b464ed891ce793bc1b007f2166e47d8e80d76a7d0e07cb158",
+      "release_sha256": "760130406928e26b464ed891ce793bc1b007f2166e47d8e80d76a7d0e07cb158",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/rm/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/rm/__init__.py",
+      "source_sha256": "926652616e721319140a27d3aad3012a4ff5f1a55a61d77e042f815ae42c8488",
+      "release_sha256": "926652616e721319140a27d3aad3012a4ff5f1a55a61d77e042f815ae42c8488",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/rm/metric.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/rm/metric.py",
+      "source_sha256": "8752fd66b44d03e47c935fb4959eb840e7c34e5e676d4bbcb08b61a1385d4ef6",
+      "release_sha256": "8752fd66b44d03e47c935fb4959eb840e7c34e5e676d4bbcb08b61a1385d4ef6",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/rm/trainer.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/rm/trainer.py",
+      "source_sha256": "d1588cf683590d6187713496459c410ba92608fcd736270e854bccecfcc1e743",
+      "release_sha256": "d1588cf683590d6187713496459c410ba92608fcd736270e854bccecfcc1e743",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/rm/workflow.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/rm/workflow.py",
+      "source_sha256": "b39b12c5cdfeccd33405853f63b2e40cff5b2fc920a63665148608030072c687",
+      "release_sha256": "b39b12c5cdfeccd33405853f63b2e40cff5b2fc920a63665148608030072c687",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/sft/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/sft/__init__.py",
+      "source_sha256": "27f7d9876d56309efd2bff46b8c10bbc034f37f8b1d9ddd2f1cd6b4a25cd88e5",
+      "release_sha256": "27f7d9876d56309efd2bff46b8c10bbc034f37f8b1d9ddd2f1cd6b4a25cd88e5",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/sft/metric.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/sft/metric.py",
+      "source_sha256": "ed8807eaca1637edb2144b1e190a1cb84e5644400e21a16745477b49a132cab6",
+      "release_sha256": "ed8807eaca1637edb2144b1e190a1cb84e5644400e21a16745477b49a132cab6",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/sft/trainer.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/sft/trainer.py",
+      "source_sha256": "66e2c3dbbe0acda54090edb6e29a9e3fbc0bd7ed7aaf808bacac61d624e3172b",
+      "release_sha256": "66e2c3dbbe0acda54090edb6e29a9e3fbc0bd7ed7aaf808bacac61d624e3172b",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/sft/workflow.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/sft/workflow.py",
+      "source_sha256": "7fd802a1c1edb2c8bc047e39f89ea3a87f9cb2ac1c35b16f2a53437819913b4c",
+      "release_sha256": "7fd802a1c1edb2c8bc047e39f89ea3a87f9cb2ac1c35b16f2a53437819913b4c",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/test_utils.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/test_utils.py",
+      "source_sha256": "2df3aaa0fa6afea7d36b1f65749d5c2d4264b52bb00b8c60bfeececa96c29479",
+      "release_sha256": "2df3aaa0fa6afea7d36b1f65749d5c2d4264b52bb00b8c60bfeececa96c29479",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/trainer_utils.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/trainer_utils.py",
+      "source_sha256": "664dd6755d910e1db3c9a5e2bdc0975115e58c6b9fc7a80ed04eba719fea6041",
+      "release_sha256": "664dd6755d910e1db3c9a5e2bdc0975115e58c6b9fc7a80ed04eba719fea6041",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/train/tuner.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/train/tuner.py",
+      "source_sha256": "256bc535554b21068c458198d3f03c7c0e4ecc9637a4cc24305fdbfa0bb158c3",
+      "release_sha256": "256bc535554b21068c458198d3f03c7c0e4ecc9637a4cc24305fdbfa0bb158c3",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/accelerator/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/accelerator/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/accelerator/helper.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/accelerator/helper.py",
+      "source_sha256": "af0ba77d4eaf9790763ac4857e6a8aac9c3d9a05672c56e8ee977a5630724786",
+      "release_sha256": "af0ba77d4eaf9790763ac4857e6a8aac9c3d9a05672c56e8ee977a5630724786",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/accelerator/interface.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/accelerator/interface.py",
+      "source_sha256": "808a1c41ee41a0f44969ec1f27a47c4dbcfcf8935c232cec34a74d11e9b37a13",
+      "release_sha256": "808a1c41ee41a0f44969ec1f27a47c4dbcfcf8935c232cec34a74d11e9b37a13",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/accelerator/profiler.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/accelerator/profiler.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/config/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/config/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/config/arg_parser.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/config/arg_parser.py",
+      "source_sha256": "bce12c4255da8dfc17dfeeb59120ac56fd01b1014ed652c1a042ac7139a0c33b",
+      "release_sha256": "bce12c4255da8dfc17dfeeb59120ac56fd01b1014ed652c1a042ac7139a0c33b",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/config/arg_utils.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/config/arg_utils.py",
+      "source_sha256": "08d04a0262153abd9443b6d3a64c0154f7010be5b4a7a8afff82b168fd1d2301",
+      "release_sha256": "08d04a0262153abd9443b6d3a64c0154f7010be5b4a7a8afff82b168fd1d2301",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/config/data_args.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/config/data_args.py",
+      "source_sha256": "96bb7fbe2747fd433ceb806a9a1dc5e512210b749586b2e4fcecca1dda5032f0",
+      "release_sha256": "96bb7fbe2747fd433ceb806a9a1dc5e512210b749586b2e4fcecca1dda5032f0",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/config/model_args.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/config/model_args.py",
+      "source_sha256": "19df4fde82689fdb08fd3f6aa54d2295912eec12be72292ba77b3ac764f86278",
+      "release_sha256": "19df4fde82689fdb08fd3f6aa54d2295912eec12be72292ba77b3ac764f86278",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/config/sample_args.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/config/sample_args.py",
+      "source_sha256": "190af49f3a39302231dbb63a5bf025306dc9c72ae86be51922d6c1c191a3422f",
+      "release_sha256": "190af49f3a39302231dbb63a5bf025306dc9c72ae86be51922d6c1c191a3422f",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/config/training_args.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/config/training_args.py",
+      "source_sha256": "9cee845a87b7645b819910a948ae6c8924e703969a27ffe2cc2cff51811802b5",
+      "release_sha256": "9cee845a87b7645b819910a948ae6c8924e703969a27ffe2cc2cff51811802b5",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/core/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/core/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/core/base_trainer.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/core/base_trainer.py",
+      "source_sha256": "ed5c259b7ebf046db22da659d2bea21c83d4e595247a6cd6c1d7c6185065ca93",
+      "release_sha256": "ed5c259b7ebf046db22da659d2bea21c83d4e595247a6cd6c1d7c6185065ca93",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/core/chat_sampler.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/core/chat_sampler.py",
+      "source_sha256": "bf38cb2e429da29358500cbd525b2d976ece8d06b872dc2f2ad866c4b2f46209",
+      "release_sha256": "bf38cb2e429da29358500cbd525b2d976ece8d06b872dc2f2ad866c4b2f46209",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/core/data_engine.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/core/data_engine.py",
+      "source_sha256": "233e11308da13c864f19d19663b2c5832c7da46c82e1254eb0b8297331213698",
+      "release_sha256": "233e11308da13c864f19d19663b2c5832c7da46c82e1254eb0b8297331213698",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/core/model_loader.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/core/model_loader.py",
+      "source_sha256": "36a01a6e70a0d9cec24be4f54109df94884525ef2c8c0a1905a8291b9a00dd6f",
+      "release_sha256": "36a01a6e70a0d9cec24be4f54109df94884525ef2c8c0a1905a8291b9a00dd6f",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/core/trainer_utils/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/core/trainer_utils/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/core/trainer_utils/callback.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/core/trainer_utils/callback.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/core/trainer_utils/data_collator.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/core/trainer_utils/data_collator.py",
+      "source_sha256": "e7d44f3ace90ae7736b8eda4cafd44dc1d80edd765b4945bc0743147a4e8c2ae",
+      "release_sha256": "e7d44f3ace90ae7736b8eda4cafd44dc1d80edd765b4945bc0743147a4e8c2ae",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/core/trainer_utils/lr_scheduler.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/core/trainer_utils/lr_scheduler.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/launcher.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/launcher.py",
+      "source_sha256": "7b6dd1989391b6711f811fa0330596d94548b4b4d2a8fb028c140ac4dca6521d",
+      "release_sha256": "7b6dd1989391b6711f811fa0330596d94548b4b4d2a8fb028c140ac4dca6521d",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/data_plugins/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/data_plugins/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/data_plugins/converter.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/data_plugins/converter.py",
+      "source_sha256": "0235d0de799106ae310c451eebfae13f86092787bb247c6664ad6088b6d8c786",
+      "release_sha256": "0235d0de799106ae310c451eebfae13f86092787bb247c6664ad6088b6d8c786",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/data_plugins/loader.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/data_plugins/loader.py",
+      "source_sha256": "d7fb5d24e8f5f8273d75598c5304106d9bacaf3dadef9ace51f4d037a6caefb4",
+      "release_sha256": "d7fb5d24e8f5f8273d75598c5304106d9bacaf3dadef9ace51f4d037a6caefb4",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/data_plugins/template.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/data_plugins/template.py",
+      "source_sha256": "af3fdc361c9636160934f6191e5aa2e2c42256b81e6207a76d5050f4c7418dee",
+      "release_sha256": "af3fdc361c9636160934f6191e5aa2e2c42256b81e6207a76d5050f4c7418dee",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/added_token.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/added_token.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/attn/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/attn/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/constants.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/constants.py",
+      "source_sha256": "2406aa41e78c5a5beb7b82f562783ca5cfe4ace91f1128d0bc1dd06815300999",
+      "release_sha256": "2406aa41e78c5a5beb7b82f562783ca5cfe4ace91f1128d0bc1dd06815300999",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/mlp/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/mlp/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/mlp/npu_fused_moe.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/mlp/npu_fused_moe.py",
+      "source_sha256": "07bc4446c0f440ac4756de7f349771e7bce4ebef2cb1d0baa77a5da48b72af10",
+      "release_sha256": "07bc4446c0f440ac4756de7f349771e7bce4ebef2cb1d0baa77a5da48b72af10",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/mlp/npu_swiglu.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/mlp/npu_swiglu.py",
+      "source_sha256": "750ef4fc41b4716571efea1d0c898f82e8d196fa1ee75f78f364b6ce6c97c3b4",
+      "release_sha256": "750ef4fc41b4716571efea1d0c898f82e8d196fa1ee75f78f364b6ce6c97c3b4",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/registry.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/registry.py",
+      "source_sha256": "f686fadb44267d5a49b32d7a36de80275a53d2e0bad68caa481455825f3e3085",
+      "release_sha256": "f686fadb44267d5a49b32d7a36de80275a53d2e0bad68caa481455825f3e3085",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/rms_norm/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/rms_norm/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/rms_norm/npu_rms_norm.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/rms_norm/npu_rms_norm.py",
+      "source_sha256": "d476ce282c2b68d06c1a41fd95b4d9955adc94c948614b1e4c91f8b0417002ba",
+      "release_sha256": "d476ce282c2b68d06c1a41fd95b4d9955adc94c948614b1e4c91f8b0417002ba",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/rope/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/rope/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/rope/npu_rope.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/kernels/rope/npu_rope.py",
+      "source_sha256": "3738ea36b7c3a680f3bf88f5f8759789d797a9ac729d7de17d2a97fb314318e3",
+      "release_sha256": "3738ea36b7c3a680f3bf88f5f8759789d797a9ac729d7de17d2a97fb314318e3",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/peft.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/model_plugins/peft.py",
+      "source_sha256": "4b34992e7936c1cc2d319a54675db054446b355b22c0b8d7cdd4abe5917e830c",
+      "release_sha256": "4b34992e7936c1cc2d319a54675db054446b355b22c0b8d7cdd4abe5917e830c",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/sampler_plugins/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/sampler_plugins/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/sampler_plugins/vllm.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/sampler_plugins/vllm.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/trainer_plugins/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/trainer_plugins/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/trainer_plugins/distributed/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/trainer_plugins/distributed/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/trainer_plugins/distributed/accelerate.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/trainer_plugins/distributed/accelerate.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/plugins/trainer_plugins/distributed/deepspeed.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/plugins/trainer_plugins/distributed/deepspeed.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/trainers/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/trainers/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/trainers/dpo_trainer.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/trainers/dpo_trainer.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/trainers/rm_trainer.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/trainers/rm_trainer.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/trainers/sft_trainer.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/trainers/sft_trainer.py",
+      "source_sha256": "d789c49cb8e88b44154c16cbf6d726d6b2beeab17f7b721c56ef3df0cba87c4c",
+      "release_sha256": "d789c49cb8e88b44154c16cbf6d726d6b2beeab17f7b721c56ef3df0cba87c4c",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/utils/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/utils/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/utils/constants.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/utils/constants.py",
+      "source_sha256": "1aa7b1fb0d494e319185345e59f2cffa981e965f63f1e126698cb49e330c7891",
+      "release_sha256": "1aa7b1fb0d494e319185345e59f2cffa981e965f63f1e126698cb49e330c7891",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/utils/dtype.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/utils/dtype.py",
+      "source_sha256": "02cb74feeba2f41f3c71a16531221c3a8a959fe1900acd7a3400cfc54ba55498",
+      "release_sha256": "02cb74feeba2f41f3c71a16531221c3a8a959fe1900acd7a3400cfc54ba55498",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/utils/logging.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/utils/logging.py",
+      "source_sha256": "f2a9046fb9396f55acc34a29d2a07a4bc7431a70db2bf98cd6caf8db449f2993",
+      "release_sha256": "f2a9046fb9396f55acc34a29d2a07a4bc7431a70db2bf98cd6caf8db449f2993",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/utils/packages.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/utils/packages.py",
+      "source_sha256": "9ca883cf9dbf28db1b984c4815b005e77753ea379695b5ec3696a22b8127b564",
+      "release_sha256": "9ca883cf9dbf28db1b984c4815b005e77753ea379695b5ec3696a22b8127b564",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/utils/plugin.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/utils/plugin.py",
+      "source_sha256": "716c8fddbcb76f8a17abf70e9018a2937a4179ce9c4a9eb31409a6dfa2d4b97e",
+      "release_sha256": "716c8fddbcb76f8a17abf70e9018a2937a4179ce9c4a9eb31409a6dfa2d4b97e",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/utils/types.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/utils/types.py",
+      "source_sha256": "201cd57f736eb656f7e3ac5b740acf90eb2a36019fba5e0dd6eace9cff06130f",
+      "release_sha256": "201cd57f736eb656f7e3ac5b740acf90eb2a36019fba5e0dd6eace9cff06130f",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/v1/utils/utils.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/v1/utils/utils.py",
+      "source_sha256": "a7c473e52831be4bd1f06dab1953a7034c16b957467a96a88821364845abdb03",
+      "release_sha256": "a7c473e52831be4bd1f06dab1953a7034c16b957467a96a88821364845abdb03",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/chatter.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/chatter.py",
+      "source_sha256": "97f5e58c8bec914edc2afa5ea80cacdad45cb2e5bff289f9d33c245c15cafe67",
+      "release_sha256": "97f5e58c8bec914edc2afa5ea80cacdad45cb2e5bff289f9d33c245c15cafe67",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/common.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/common.py",
+      "source_sha256": "b51911d71a64900195f47135f45108f1bafaae586c1f063fb50d1380b0a3f68d",
+      "release_sha256": "b51911d71a64900195f47135f45108f1bafaae586c1f063fb50d1380b0a3f68d",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/components/__init__.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/components/__init__.py",
+      "source_sha256": "886caf84a6d5a4b0f9d4bb2f81b74b567bb9c32c40fbf34d58c0204309b70b5d",
+      "release_sha256": "886caf84a6d5a4b0f9d4bb2f81b74b567bb9c32c40fbf34d58c0204309b70b5d",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/components/chatbot.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/components/chatbot.py",
+      "source_sha256": "de4e75ce01838a791fe4f781e3ab56fd64b4b2eefd5b4f7ac91da605dedfa20f",
+      "release_sha256": "de4e75ce01838a791fe4f781e3ab56fd64b4b2eefd5b4f7ac91da605dedfa20f",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/components/data.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/components/data.py",
+      "source_sha256": "0981ffa2550840115f12fce36e6a8d94fd05134242f4e6639df4e504895fca87",
+      "release_sha256": "0981ffa2550840115f12fce36e6a8d94fd05134242f4e6639df4e504895fca87",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/components/eval.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/components/eval.py",
+      "source_sha256": "996ec48471731280b0eab446f30619861f42504380ab55536307baea0b101f7b",
+      "release_sha256": "996ec48471731280b0eab446f30619861f42504380ab55536307baea0b101f7b",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/components/export.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/components/export.py",
+      "source_sha256": "fff08c765905e1a39c471e3d3c95e055572fcf9daa9f5ba2baeb806fe36065b3",
+      "release_sha256": "fff08c765905e1a39c471e3d3c95e055572fcf9daa9f5ba2baeb806fe36065b3",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/components/footer.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/components/footer.py",
+      "source_sha256": "4ce0e8d322c59c2c5dd9789d97865001b65049670df1a49c4895724dd7b129af",
+      "release_sha256": "4ce0e8d322c59c2c5dd9789d97865001b65049670df1a49c4895724dd7b129af",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/components/infer.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/components/infer.py",
+      "source_sha256": "1b53c34c6096733c910a7503e8e887ce2587fcb10dcc29d5234ce772f410b652",
+      "release_sha256": "1b53c34c6096733c910a7503e8e887ce2587fcb10dcc29d5234ce772f410b652",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/components/top.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/components/top.py",
+      "source_sha256": "fbfb16c63ceaf9adfdd518ae7a11bbb12e43cfc1397ee5024f4fbb1ce74b14bd",
+      "release_sha256": "fbfb16c63ceaf9adfdd518ae7a11bbb12e43cfc1397ee5024f4fbb1ce74b14bd",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/components/train.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/components/train.py",
+      "source_sha256": "549a768c1f8697a2c0b4efb2f586ed1f465e0727526d468df93e4ac86f3aa5a5",
+      "release_sha256": "549a768c1f8697a2c0b4efb2f586ed1f465e0727526d468df93e4ac86f3aa5a5",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/control.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/control.py",
+      "source_sha256": "0381bf907f10c96c9b8995c915167a2f2788751b5b7d895ea431c9da57570937",
+      "release_sha256": "0381bf907f10c96c9b8995c915167a2f2788751b5b7d895ea431c9da57570937",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/css.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/css.py",
+      "source_sha256": "6291fd0721301dd7d97e3ea45bbd049b790093d2bc183582d441b8ba9beb8af7",
+      "release_sha256": "6291fd0721301dd7d97e3ea45bbd049b790093d2bc183582d441b8ba9beb8af7",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/engine.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/engine.py",
+      "source_sha256": "a556375e7e6b532dcf9b4dd670eb68bd9ca26d96dc88eece09c727386404b548",
+      "release_sha256": "a556375e7e6b532dcf9b4dd670eb68bd9ca26d96dc88eece09c727386404b548",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/interface.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/interface.py",
+      "source_sha256": "2a7cb77e442137d92d361eed95d430e362b57a006acb49750d8049b5f740b5d8",
+      "release_sha256": "2a7cb77e442137d92d361eed95d430e362b57a006acb49750d8049b5f740b5d8",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/locales.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/locales.py",
+      "source_sha256": "6c44e475e38f25cdf1ff21b3d2a5c41748b8f89c2d80136c56298f4361c4a00b",
+      "release_sha256": "6c44e475e38f25cdf1ff21b3d2a5c41748b8f89c2d80136c56298f4361c4a00b",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/manager.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/manager.py",
+      "source_sha256": "206b7d13a1074be0f1cd00c1d3752aaadade753fb1d846bd9e9322fbc21e3158",
+      "release_sha256": "206b7d13a1074be0f1cd00c1d3752aaadade753fb1d846bd9e9322fbc21e3158",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/llamafactory/webui/runner.py",
+      "destination": "third_party/LLaMA-Factory/src/llamafactory/webui/runner.py",
+      "source_sha256": "2b6ffdced0beda168d0d7d5f3f44e1521e10ba20398acebbad449da40225c955",
+      "release_sha256": "2b6ffdced0beda168d0d7d5f3f44e1521e10ba20398acebbad449da40225c955",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/train.py",
+      "destination": "third_party/LLaMA-Factory/src/train.py",
+      "source_sha256": "364cd96ecf0d69fb701ee98f2a86e60a9ebe2376e9924be990f6e9b67314a219",
+      "release_sha256": "364cd96ecf0d69fb701ee98f2a86e60a9ebe2376e9924be990f6e9b67314a219",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/src/webui.py",
+      "destination": "third_party/LLaMA-Factory/src/webui.py",
+      "source_sha256": "bbea39f6ba173357e75e01c8f739f87d784329182e9e1682faecf9578ef619d6",
+      "release_sha256": "bbea39f6ba173357e75e01c8f739f87d784329182e9e1682faecf9578ef619d6",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/LICENSE",
+      "destination": "third_party/LLaMA-Factory/LICENSE",
+      "source_sha256": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a",
+      "release_sha256": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/README.md",
+      "destination": "third_party/LLaMA-Factory/README.md",
+      "source_sha256": "a3fb476b42f3f471eeecca2b60a1930a75168d2cdd5d9c078c5d6060241b2369",
+      "release_sha256": "89c72846d999a089817e24088260e8f535c10f48d7fc5d35e1f2368682d526a8",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/requirements.txt",
+      "destination": "third_party/LLaMA-Factory/requirements.txt",
+      "source_sha256": "b3a0000e700a4569437afe572cf41d1f5784f1cd8954a373b96727b1fb87c87a",
+      "release_sha256": "b3a0000e700a4569437afe572cf41d1f5784f1cd8954a373b96727b1fb87c87a",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/setup.py",
+      "destination": "third_party/LLaMA-Factory/setup.py",
+      "source_sha256": "88a3e6a9dd191548cc4bcbeac4c22fb120b5c6bbdf43bd56764c86edfb26ebee",
+      "release_sha256": "88a3e6a9dd191548cc4bcbeac4c22fb120b5c6bbdf43bd56764c86edfb26ebee",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/pyproject.toml",
+      "destination": "third_party/LLaMA-Factory/pyproject.toml",
+      "source_sha256": "0c88d7d67d6ba6afce7336c69066f8628082f9a02e9444f2a837c16ffaab1d80",
+      "release_sha256": "0c88d7d67d6ba6afce7336c69066f8628082f9a02e9444f2a837c16ffaab1d80",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/MANIFEST.in",
+      "destination": "third_party/LLaMA-Factory/MANIFEST.in",
+      "source_sha256": "e0e1489fd98d775fce2e18dca879cb6d9a3ca68c9538c9d6eddd07e5c36d2f74",
+      "release_sha256": "e0e1489fd98d775fce2e18dca879cb6d9a3ca68c9538c9d6eddd07e5c36d2f74",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/scripts/vllm_infer.py",
+      "destination": "third_party/LLaMA-Factory/scripts/vllm_infer.py",
+      "source_sha256": "cc4234c3bea94c6df0314fe52536646b977014c20035c0bfa01c5357ef0706eb",
+      "release_sha256": "cc4234c3bea94c6df0314fe52536646b977014c20035c0bfa01c5357ef0706eb",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/scripts/hf_infer.py",
+      "destination": "third_party/LLaMA-Factory/scripts/hf_infer.py",
+      "source_sha256": "0f7d471d2887bbc5b00bc9495cf851a70b22a9b2e66f351492c265b4008301d6",
+      "release_sha256": "0f7d471d2887bbc5b00bc9495cf851a70b22a9b2e66f351492c265b4008301d6",
+      "modified_for_release": false
+    },
+    {
+      "source": "segx/LLaMA-Factory/scripts/vllm_infer_gemma.py",
+      "destination": "third_party/LLaMA-Factory/scripts/vllm_infer_gemma.py",
+      "source_sha256": "17779d8ff2ccebae162b9c155c75e688353518df04553bd925381c6fd264675a",
+      "release_sha256": "02751900c52e9fa8cb60b977c0083228d5c3355004c303bcd13f46bb9b6e6bc8",
+      "modified_for_release": true
+    },
+    {
+      "source": "MedSAM2/sam2/__init__.py",
+      "destination": "third_party/MedSAM2/sam2/__init__.py",
+      "source_sha256": "b87ca1e95cd54b81766e8c74acf0e937952639529e40d2b4088693286f49419e",
+      "release_sha256": "b87ca1e95cd54b81766e8c74acf0e937952639529e40d2b4088693286f49419e",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/build_sam.py",
+      "destination": "third_party/MedSAM2/sam2/build_sam.py",
+      "source_sha256": "f6b91434fc50f7a4b05c4e581000388aa52fb36102f87711919abef9bdf6ec30",
+      "release_sha256": "f6b91434fc50f7a4b05c4e581000388aa52fb36102f87711919abef9bdf6ec30",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/csrc/connected_components.cu",
+      "destination": "third_party/MedSAM2/sam2/csrc/connected_components.cu",
+      "source_sha256": "926c277e24f40609622bb4ce49912838d1c799e63edcccc1c75e65e701acd497",
+      "release_sha256": "926c277e24f40609622bb4ce49912838d1c799e63edcccc1c75e65e701acd497",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/modeling/__init__.py",
+      "destination": "third_party/MedSAM2/sam2/modeling/__init__.py",
+      "source_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+      "release_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/modeling/backbones/__init__.py",
+      "destination": "third_party/MedSAM2/sam2/modeling/backbones/__init__.py",
+      "source_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+      "release_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/modeling/backbones/hieradet.py",
+      "destination": "third_party/MedSAM2/sam2/modeling/backbones/hieradet.py",
+      "source_sha256": "03785581ca304d0451ae0df7a08ee0bf1e1dbe66fad285066e6b9ffc0d88d64f",
+      "release_sha256": "03785581ca304d0451ae0df7a08ee0bf1e1dbe66fad285066e6b9ffc0d88d64f",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/modeling/backbones/image_encoder.py",
+      "destination": "third_party/MedSAM2/sam2/modeling/backbones/image_encoder.py",
+      "source_sha256": "f2d4596ea880c56a8eba1fcaaca165c9a678366e1ae83f228b52d8e0234006b9",
+      "release_sha256": "268a47f36882c9b9001af786c5995ed96ac71326a03892a089cd7f7562056d1b",
+      "modified_for_release": true
+    },
+    {
+      "source": "MedSAM2/sam2/modeling/backbones/utils.py",
+      "destination": "third_party/MedSAM2/sam2/modeling/backbones/utils.py",
+      "source_sha256": "0dd6b120c8ffa92ea0ff5af86a347b1bc2b53c201f5a3f20710593aed56daf1b",
+      "release_sha256": "0dd6b120c8ffa92ea0ff5af86a347b1bc2b53c201f5a3f20710593aed56daf1b",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/modeling/backbones/vitdet.py",
+      "destination": "third_party/MedSAM2/sam2/modeling/backbones/vitdet.py",
+      "source_sha256": "53f2ba659655711d0002203a0383041d2d621355c8129f60297b963b77a6ad1d",
+      "release_sha256": "9fd2231de61f1533a3d1bf5adf91f57022586721493c85e4beb93078a7bb3edb",
+      "modified_for_release": true
+    },
+    {
+      "source": "MedSAM2/sam2/modeling/efficienttam_base.py",
+      "destination": "third_party/MedSAM2/sam2/modeling/efficienttam_base.py",
+      "source_sha256": "7cdd0a5f919cf1a28aaeec34b0a4f79fe136b3456a72e8f88c4c2b5b21923623",
+      "release_sha256": "7cdd0a5f919cf1a28aaeec34b0a4f79fe136b3456a72e8f88c4c2b5b21923623",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/modeling/efficienttam_utils.py",
+      "destination": "third_party/MedSAM2/sam2/modeling/efficienttam_utils.py",
+      "source_sha256": "b78a7996e549b9eada0d2fadcd85a1a9aefd735d39c7fbd7df854a61dd392e82",
+      "release_sha256": "b78a7996e549b9eada0d2fadcd85a1a9aefd735d39c7fbd7df854a61dd392e82",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/modeling/memory_attention.py",
+      "destination": "third_party/MedSAM2/sam2/modeling/memory_attention.py",
+      "source_sha256": "07358cb7f58ec3788e88ff4e6415f8a9d628a3963529d6e2c915494a5347c8e2",
+      "release_sha256": "07358cb7f58ec3788e88ff4e6415f8a9d628a3963529d6e2c915494a5347c8e2",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/modeling/memory_encoder.py",
+      "destination": "third_party/MedSAM2/sam2/modeling/memory_encoder.py",
+      "source_sha256": "73f7089ae5fdacdfcaaf3deca1ca6d9f84d89e7deb9cf97589622a9ef17ba42f",
+      "release_sha256": "73f7089ae5fdacdfcaaf3deca1ca6d9f84d89e7deb9cf97589622a9ef17ba42f",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/modeling/position_encoding.py",
+      "destination": "third_party/MedSAM2/sam2/modeling/position_encoding.py",
+      "source_sha256": "14ae89d7ae68f61e2ffcba09eb171d8df9a7298332d4da99036d703294f89ec1",
+      "release_sha256": "14ae89d7ae68f61e2ffcba09eb171d8df9a7298332d4da99036d703294f89ec1",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/modeling/sam/__init__.py",
+      "destination": "third_party/MedSAM2/sam2/modeling/sam/__init__.py",
+      "source_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+      "release_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/modeling/sam/mask_decoder.py",
+      "destination": "third_party/MedSAM2/sam2/modeling/sam/mask_decoder.py",
+      "source_sha256": "ca3523c58365574faddf1bfb54f374e4b4beba05127185ea2b17d22b916e099a",
+      "release_sha256": "ca3523c58365574faddf1bfb54f374e4b4beba05127185ea2b17d22b916e099a",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/modeling/sam/prompt_encoder.py",
+      "destination": "third_party/MedSAM2/sam2/modeling/sam/prompt_encoder.py",
+      "source_sha256": "486596f5ba976cb9ced3836d65f1793dae586be2180567a451098f96c45ae401",
+      "release_sha256": "486596f5ba976cb9ced3836d65f1793dae586be2180567a451098f96c45ae401",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/modeling/sam/transformer.py",
+      "destination": "third_party/MedSAM2/sam2/modeling/sam/transformer.py",
+      "source_sha256": "17aac13abc8f73023f6be4b78af708df9f9f254964729421b1ba60e72a9011c1",
+      "release_sha256": "17aac13abc8f73023f6be4b78af708df9f9f254964729421b1ba60e72a9011c1",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/modeling/sam2_base.py",
+      "destination": "third_party/MedSAM2/sam2/modeling/sam2_base.py",
+      "source_sha256": "6d81450e897d0735f9be369771f2b3fb6eadb90dd3f3ac16b3f7a8c8eb1a052a",
+      "release_sha256": "6d81450e897d0735f9be369771f2b3fb6eadb90dd3f3ac16b3f7a8c8eb1a052a",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/modeling/sam2_utils.py",
+      "destination": "third_party/MedSAM2/sam2/modeling/sam2_utils.py",
+      "source_sha256": "e35bbf13bc2e544a0272cd3f9539af38a752676ac3cd744be31cd8220afee804",
+      "release_sha256": "e35bbf13bc2e544a0272cd3f9539af38a752676ac3cd744be31cd8220afee804",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/sam2_image_predictor.py",
+      "destination": "third_party/MedSAM2/sam2/sam2_image_predictor.py",
+      "source_sha256": "673e6e95acd2d60452f24ab4365fe8fca23d5d681e7dd1f6d1f01e9346a3e0dc",
+      "release_sha256": "673e6e95acd2d60452f24ab4365fe8fca23d5d681e7dd1f6d1f01e9346a3e0dc",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/sam2_video_predictor.py",
+      "destination": "third_party/MedSAM2/sam2/sam2_video_predictor.py",
+      "source_sha256": "e0c054112f21bfa63620f2026c8bb2e0f4e284b138d09426a08d39f2e882c3f2",
+      "release_sha256": "e0c054112f21bfa63620f2026c8bb2e0f4e284b138d09426a08d39f2e882c3f2",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/sam2_video_predictor_npz.py",
+      "destination": "third_party/MedSAM2/sam2/sam2_video_predictor_npz.py",
+      "source_sha256": "90f4967254fa07bfd2a4a8f45c0b2129a7b71ad3501066b83f25b016ac9a13c1",
+      "release_sha256": "549a731255b5eff4b65e55f0e603aee2bfd19441e4aedb855606f86fb92a59c3",
+      "modified_for_release": true
+    },
+    {
+      "source": "MedSAM2/sam2/sam2_video_trainer.py",
+      "destination": "third_party/MedSAM2/sam2/sam2_video_trainer.py",
+      "source_sha256": "76d6d87e154232574482e3ef20536ef86db641713b9f22f1cb8e63a0b3712c46",
+      "release_sha256": "71393ee6c0fa050b748ca3da3f929af50c9ac45f45c25b451bb09c654ced94bc",
+      "modified_for_release": true
+    },
+    {
+      "source": "MedSAM2/sam2/utils/__init__.py",
+      "destination": "third_party/MedSAM2/sam2/utils/__init__.py",
+      "source_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+      "release_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/utils/amg.py",
+      "destination": "third_party/MedSAM2/sam2/utils/amg.py",
+      "source_sha256": "b7b33090e2af72e04dbb815c8f32aff41a4ed1abf9668f62b59f1bdd640ca5d8",
+      "release_sha256": "b7b33090e2af72e04dbb815c8f32aff41a4ed1abf9668f62b59f1bdd640ca5d8",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/utils/misc.py",
+      "destination": "third_party/MedSAM2/sam2/utils/misc.py",
+      "source_sha256": "4601ae8500e3a26c8fe7c59108124bc8cd8a9a3f76cfb20a8edd8c616657c609",
+      "release_sha256": "4601ae8500e3a26c8fe7c59108124bc8cd8a9a3f76cfb20a8edd8c616657c609",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/utils/transforms.py",
+      "destination": "third_party/MedSAM2/sam2/utils/transforms.py",
+      "source_sha256": "ba3a64f4600c62f209206a6df3b40e3fcf133edae32fad658831bb0c2a6d1146",
+      "release_sha256": "ba3a64f4600c62f209206a6df3b40e3fcf133edae32fad658831bb0c2a6d1146",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/sam2/configs/sam2.1_hiera_t512.yaml",
+      "destination": "third_party/MedSAM2/sam2/configs/sam2.1_hiera_t512.yaml",
+      "source_sha256": "dbab39b9ca69c521bf05596b87aeb9f2901e8430f954a85bbf62c698dfc5f54b",
+      "release_sha256": "dbab39b9ca69c521bf05596b87aeb9f2901e8430f954a85bbf62c698dfc5f54b",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/LICENSE",
+      "destination": "third_party/MedSAM2/LICENSE",
+      "source_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "release_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/README.md",
+      "destination": "third_party/MedSAM2/README.md",
+      "source_sha256": "bfa4037ec8495c0cd5961a2bce3f28ac71330f2024223aa59caad66d27160afb",
+      "release_sha256": "25ecc093ea9a9a9d10e179af224d8134ce75e8aab9b13ae0979db3eb0810e046",
+      "modified_for_release": true
+    },
+    {
+      "source": "MedSAM2/setup.py",
+      "destination": "third_party/MedSAM2/setup.py",
+      "source_sha256": "5913d9366deca572da1754cd4b3170f0269080240c828dfb8b445d55342f0b50",
+      "release_sha256": "5913d9366deca572da1754cd4b3170f0269080240c828dfb8b445d55342f0b50",
+      "modified_for_release": false
+    },
+    {
+      "source": "MedSAM2/pyproject.toml",
+      "destination": "third_party/MedSAM2/pyproject.toml",
+      "source_sha256": "24cbecb7e53b9f2fb59cec1cbab21e9696d4520b18e73b6c77156c53297ea1a8",
+      "release_sha256": "f7a96ddc8a93dfc2e68cb922b0f7c45a36a1978801bb348b2250d5f85b7a19e0",
+      "modified_for_release": true
+    },
+    {
+      "source": "M3D-Seg/M3D_Seg/step0_cvt_nii_to_npy_all.py",
+      "destination": "data_preparation/ctorg/convert_volumes.py",
+      "source_sha256": "3c2b76eb4678d6885b7a7eb216702b86faff062a5fbe0bbf0b599e70fa7e20a2",
+      "release_sha256": "664b91ec9b9a49ab9c3984827a3ff45762ce88b520173364ce355c97a2a1292b",
+      "modified_for_release": true
+    },
+    {
+      "source": "M3D-Seg/M3D_Seg/step2_pro_all.py",
+      "destination": "data_preparation/ctorg/select_slices.py",
+      "source_sha256": "5603dc58e1d7eb3ce709b24c2f89a0e3efda78749da470907c3fb879215c9c40",
+      "release_sha256": "e8e22bb08ed852141e753382e5f380a82d1c092508e97001739b243497abe55e",
+      "modified_for_release": true
+    },
+    {
+      "source": "M3D-Seg/M3D_Seg/CTOrg/step4_gen_refseg_vqa_ctorg.py",
+      "destination": "data_preparation/ctorg/generate_sft.py",
+      "source_sha256": "4cfb9dc10c6e3d8fe3dad71743a4a526b535ef84b26cc48ea13eab3348b99d5f",
+      "release_sha256": "d2b79e65e49c2a149c4664668218ab9abe02311c2ea5f57c311d3a63ae675bcf",
+      "modified_for_release": true
+    },
+    {
+      "source": "M3D-Seg/M3D_Seg/CTOrg/gen_rl_parquet.py",
+      "destination": "data_preparation/ctorg/generate_rl.py",
+      "source_sha256": "4d3105c4fe924560f927fbbd1c5471cf667685d83726cdbadb887d1684d8b029",
+      "release_sha256": "c16af5a49b4c51878007832cbb1994d6ba11b6caff99eafd8d922389f9e14e1b",
+      "modified_for_release": true
+    },
+    {
+      "source": "M3D-Seg/M3D_Seg/kits23/step0_cvt_to_kits_m3d.py",
+      "destination": "data_preparation/kits23/step0_cvt_to_kits_m3d.py",
+      "source_sha256": "fdf8d5079c536a14f19285a15e51ac11364d3a7eeb02a75b28fbdea7f3cf5ffe",
+      "release_sha256": "65df4a84c5d749e62454d350627391fb00dd4e8b4178b3da3cb4848abf43ee98",
+      "modified_for_release": true
+    },
+    {
+      "source": "M3D-Seg/M3D_Seg/kits23/step1_get_64slices.py",
+      "destination": "data_preparation/kits23/step1_get_64slices.py",
+      "source_sha256": "5d7f204e81bb584f11a585fe9dbafbe3a95bfbdcd0451e9213b9bb66ebe7a24b",
+      "release_sha256": "2aba5ae5f4b71dcde08776a3fa8c4a552b84e9c83a12f63c1fa4433b112a9c48",
+      "modified_for_release": true
+    },
+    {
+      "source": "M3D-Seg/M3D_Seg/kits23/step2_gen_sft_vqa_via_tmplate.py",
+      "destination": "data_preparation/kits23/step2_gen_sft_vqa_via_tmplate.py",
+      "source_sha256": "c2c9802b50887da091368a724522d33ad95b3c61cf8a53049065f79c3a03f33b",
+      "release_sha256": "0e2ca0f745c6cdb7a93559dae27d68b0f5973661fab2ab414ea193172f9ec043",
+      "modified_for_release": true
+    },
+    {
+      "source": "M3D-Seg/M3D_Seg/kits23/gen_rl_parquet.py",
+      "destination": "data_preparation/kits23/gen_rl_parquet.py",
+      "source_sha256": "a63631a9dfc849b5045ad0d23f7183d36116ae5158b415f0c96897fc35b60597",
+      "release_sha256": "a98a4f2b5feec2808e717901e1bdb067f40fd7a1d4e714488494f2d3f654d5fe",
+      "modified_for_release": true
+    },
+    {
+      "source": "M3D-Seg/M3D_Seg/kits23/final_vqa_gen/step1_cvt_to_npy.py",
+      "destination": "data_preparation/kits23/entity_generation/step1_cvt_to_npy.py",
+      "source_sha256": "e180ec033225b56ffcf4072ef6d45919edce60cc62ffd86e5d849e977600e272",
+      "release_sha256": "621da01f0940bad016691709d8d174c71380f97c28b70e56e4ada72d0b8ea2ca",
+      "modified_for_release": true
+    },
+    {
+      "source": "M3D-Seg/M3D_Seg/kits23/final_vqa_gen/step2_stats_tumor_cyst.py",
+      "destination": "data_preparation/kits23/entity_generation/step2_stats_tumor_cyst.py",
+      "source_sha256": "482f674221e8d4135f4418b7f3b3d39b14ddbf4c3b0ba5f9cc30268885dacb56",
+      "release_sha256": "4d4a0e6fa9a79bad9264b6c16f3c72e64a5a90f1c7657fca8e10945e9fce4745",
+      "modified_for_release": true
+    },
+    {
+      "source": "M3D-Seg/M3D_Seg/kits23/final_vqa_gen/step3_gen_attri_stats.py",
+      "destination": "data_preparation/kits23/entity_generation/step3_gen_attri_stats.py",
+      "source_sha256": "29943508b9d980480902efc7160d7115852d0c1cbc7e8fc2a8defc545c61fea3",
+      "release_sha256": "6eb0aa76375b6cb506fd2fa5ca589ea62f27bd705587e950543933d48a882065",
+      "modified_for_release": true
+    },
+    {
+      "source": "M3D-Seg/M3D_Seg/kits23/final_vqa_gen/step4_gen_template.py",
+      "destination": "data_preparation/kits23/entity_generation/step4_gen_template.py",
+      "source_sha256": "2eb19cd8a17ba776b3209ddfcc3d50cb7d18cde577da1cc1ed4237681fb1185e",
+      "release_sha256": "96a5f27a6256ce12e45fa4e9dc3ac3777edc239317d9c418c2550fa6ba448333",
+      "modified_for_release": true
+    },
+    {
+      "source": "M3D-Seg/M3D_Seg/kits23/template.json",
+      "destination": "data_preparation/kits23/template.json",
+      "source_sha256": "10414f257b4f8e808f31d8582b44c3248ff7b12cd9396d553bc94f1f5f24ae3f",
+      "release_sha256": "10414f257b4f8e808f31d8582b44c3248ff7b12cd9396d553bc94f1f5f24ae3f",
+      "modified_for_release": false
+    },
+    {
+      "source": "M3D-Seg/term_dictionary.json",
+      "destination": "data_preparation/ctorg/term_dictionary.json",
+      "source_sha256": "993ef0957b4112a022d21f8118d5b6d78ebfbf207b3b73b750fd438c0294a524",
+      "release_sha256": "03d4c721bbd83a091e5a8aca8da1e944903d00608c2a41ce0a01c953a47a9342",
+      "modified_for_release": true
+    },
+    {
+      "source": "M3D-Seg/M3D_Seg/CTOrg/dataset_info.json",
+      "destination": "data_preparation/ctorg/dataset_info.json",
+      "source_sha256": "54729b8ac00030982b974df21882fb769ebfe4278615424cbf8c317f35c3f573",
+      "release_sha256": "543921e81aa890dc0c081c44582f2fac514df5689fcc17f48439617b3f003691",
+      "modified_for_release": true
+    },
+    {
+      "source": "M3D-Seg/M3D_Seg/kits23/dataset_info.json",
+      "destination": "data_preparation/kits23/dataset_info.json",
+      "source_sha256": "7997a1cbe757c7c07b35bcc53e93de207895bd0ffc50f4736339b7dba638164d",
+      "release_sha256": "a65021d3af748a77a73cbf2c4777703f1b04af97542df10f002ff945a65e7077",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/work_scripts/inference_outputs/eval_slice_hit_multi_frame64.py",
+      "destination": "evaluation/grounding/eval_slice_hit_multi_frame64.py",
+      "source_sha256": "60296df53c6e6acfd8c8267cef856403332f0a4c0d89ed57366e68b2ab9b8b17",
+      "release_sha256": "eeeeafb16d12297dc2bee24e750d9db26e63025eada745ce638b6f2d8c632022",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/work_scripts/inference_outputs/eval_slice_hit_frame64_vis.py",
+      "destination": "evaluation/grounding/eval_slice_hit_frame64_vis.py",
+      "source_sha256": "cb528c9d3723cb3090c941f4243ccebf19c658e390722751f4000f8cf3c879af",
+      "release_sha256": "9eed6758864a0cfb54c617567ee16944227041fe812525ca18dd60e51948b64f",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/work_scripts/inference_outputs/eval_slice_hit_frame16_vis_multi.py",
+      "destination": "evaluation/grounding/eval_slice_hit_frame16_vis_multi.py",
+      "source_sha256": "fd19e35f2400e5d568acd90f5cbfef4c49fb479e36f3418881f447899e31d2ff",
+      "release_sha256": "b5095f0187162e6c8dc4b2f5f95c8c0cb39d94badc2cf144de6513bb1fdf6d0a",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/work_scripts/inference_outputs/eval_slice_hit_by_frame.py",
+      "destination": "evaluation/grounding/eval_slice_hit_by_frame.py",
+      "source_sha256": "103e975e4260ef2de083bf6bca7bf821e0c7f06477279d6537f25c3920ed44a4",
+      "release_sha256": "9c2d748828b687ddc79c6ddd8c1a9dc56a640be6a1c93296ca30f4adad55e746",
+      "modified_for_release": true
+    },
+    {
+      "source": "segx/LLaMA-Factory/work_scripts/inference_outputs/eval_slice_hit_frame16_vis.py",
+      "destination": "evaluation/grounding/eval_slice_hit_frame16_vis.py",
+      "source_sha256": "c6b8b1f0007cb10133c2b7c4810b91b938542f7256451dcae60cc882e5b72e0f",
+      "release_sha256": "c631cc9f474a5565f4e4db3b8bbab74feedfefe3c8149e6fa326fb24421ba5c0",
+      "modified_for_release": true
+    },
+    {
+      "source": "M3D-Seg/M3D_Seg/infer_from_gts_no_ub.py",
+      "destination": "evaluation/ctorg_segmentation.py",
+      "source_sha256": "e87d2a18cd79e7b9ba4e0fe28599f5dde1f2a8e107d428ea443ffe3730321afb",
+      "release_sha256": "3140c379edcf430b08cb3e612bebff99f072bbecc73971b11f3c6228e0810796",
+      "modified_for_release": true
+    }
+  ]
+}

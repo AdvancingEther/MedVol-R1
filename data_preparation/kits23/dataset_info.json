@@ -1,0 +1,18 @@
+{
+    "kits23_frames_refseg_test": {
+    "file_name": "kits23_frames_refseg_test.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+    "kits23_frames_refseg_train": {
+    "file_name": "kits23_frames_refseg_train.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  }
+}
